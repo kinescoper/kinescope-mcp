@@ -1,0 +1,1670 @@
+{
+  "summary": {
+    "total": 126,
+    "success": 15,
+    "errors": 55,
+    "skipped": 56
+  },
+  "byResource": {
+    ":token_id": {
+      "resource": ":token_id",
+      "total": 2,
+      "success": 0,
+      "errors": 2,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:token_id_delete_token__token_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:token_id_get_token__token_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "access-tokens": {
+      "resource": "access-tokens",
+      "total": 3,
+      "success": 1,
+      "errors": 2,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_access-tokens_create_token",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_access-tokens_create_upload_token_to_specific_project",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_access-tokens_tokens_list",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":material_id": {
+      "resource": ":material_id",
+      "total": 3,
+      "success": 0,
+      "errors": 3,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:material_id_delete_additional_material__material_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:material_id_get_download_link__material_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:material_id_update_additional_material__material_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "reorder": {
+      "resource": "reorder",
+      "total": 1,
+      "success": 0,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_reorder_reorder_additional_materials_reorder",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        }
+      ]
+    },
+    "analytics": {
+      "resource": "analytics",
+      "total": 1,
+      "success": 0,
+      "errors": 0,
+      "skipped": 1,
+      "results": [
+        {
+          "name": "kinescope_analytics_custom",
+          "status": "skipped",
+          "message": "Ресурс не найден (возможно, нормально)"
+        }
+      ]
+    },
+    "overview": {
+      "resource": "overview",
+      "total": 1,
+      "success": 0,
+      "errors": 0,
+      "skipped": 1,
+      "results": [
+        {
+          "name": "kinescope_overview_overview_overview",
+          "status": "skipped",
+          "message": "Ресурс не найден (возможно, нормально)"
+        }
+      ]
+    },
+    "avatar": {
+      "resource": "avatar",
+      "total": 4,
+      "success": 1,
+      "errors": 3,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_avatar_delete_avatar",
+          "status": "success",
+          "message": "Успешно выполнен"
+        },
+        {
+          "name": "kinescope_avatar_set_avatar",
+          "status": "error",
+          "message": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:26:17.091432986Z\"}}",
+          "error": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:26:17.091432986Z\"}}"
+        },
+        {
+          "name": "kinescope_avatar_show_avatar_avatar",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        },
+        {
+          "name": "kinescope_avatar_show_avatar_avatar",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        }
+      ]
+    },
+    "usage": {
+      "resource": "usage",
+      "total": 1,
+      "success": 0,
+      "errors": 0,
+      "skipped": 1,
+      "results": [
+        {
+          "name": "kinescope_usage_usage_usage",
+          "status": "skipped",
+          "message": "Ресурс не найден (возможно, нормально)"
+        }
+      ]
+    },
+    "zones": {
+      "resource": "zones",
+      "total": 4,
+      "success": 1,
+      "errors": 3,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_zones_create_zone_zones",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_zones_delete_zone_zones",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_zones_get_zones_zones",
+          "status": "success",
+          "message": "Успешно выполнен"
+        },
+        {
+          "name": "kinescope_zones_update_zone_zones",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "timezones": {
+      "resource": "timezones",
+      "total": 1,
+      "success": 1,
+      "errors": 0,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_timezones_timezones_list_timezones",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    "auth": {
+      "resource": "auth",
+      "total": 3,
+      "success": 0,
+      "errors": 0,
+      "skipped": 3,
+      "results": [
+        {
+          "name": "kinescope_auth_delete_auth_auth",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_auth_get_auth_auth",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_auth_update_auth_auth",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        }
+      ]
+    },
+    ":file_request_id": {
+      "resource": ":file_request_id",
+      "total": 3,
+      "success": 0,
+      "errors": 3,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:file_request_id_delete_file_request__file_request_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:file_request_id_get_file_request__file_request_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:file_request_id_update_file_request__file_request_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "file-requests": {
+      "resource": "file-requests",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_file-requests_create_file_request",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_file-requests_list_file_requests",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    "events": {
+      "resource": "events",
+      "total": 18,
+      "success": 1,
+      "errors": 1,
+      "skipped": 16,
+      "results": [
+        {
+          "name": "kinescope_events_chat_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_create_event_events",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_events_create_restream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_delete_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_delete_restream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_enable_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_event_videos_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_finish_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_get_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_get_restream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_list_events_events",
+          "status": "success",
+          "message": "Успешно выполнен"
+        },
+        {
+          "name": "kinescope_events_list_restreams_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_move_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_qos_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_schedule_new_stream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_update_event_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_update_restream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_events_update_schedule_stream_events",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        }
+      ]
+    },
+    ":moderator_id": {
+      "resource": ":moderator_id",
+      "total": 3,
+      "success": 0,
+      "errors": 3,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:moderator_id_delete_moderator__moderator_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:moderator_id_get_moderator__moderator_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:moderator_id_update_moderator__moderator_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "moderators": {
+      "resource": "moderators",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_moderators_add_moderator",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_moderators_get_moderators",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":player_id": {
+      "resource": ":player_id",
+      "total": 4,
+      "success": 0,
+      "errors": 4,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:player_id_delete_logo__player_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 405 - {\"error\":{\"code\":400405,\"message\":\"method not allowed\"}}",
+          "error": "Kinescope API Error: 405 - {\"error\":{\"code\":400405,\"message\":\"method not allowed\"}}"
+        },
+        {
+          "name": "kinescope_:player_id_get_player__player_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:player_id_set_logo__player_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:player_id_update_player__player_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "players": {
+      "resource": "players",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_players_create_player",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_players_get_players",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":playlist_id": {
+      "resource": ":playlist_id",
+      "total": 7,
+      "success": 0,
+      "errors": 7,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:playlist_id_add_medias__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:playlist_id_delete_medias__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:playlist_id_delete_playlist__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:playlist_id_get_playlist__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:playlist_id_list_medias__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:playlist_id_move_media__playlist_id",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Require",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        },
+        {
+          "name": "kinescope_:playlist_id_update_playlist__playlist_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "playlists": {
+      "resource": "playlists",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_playlists_create_playlist",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_playlists_list_playlists",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    "poster": {
+      "resource": "poster",
+      "total": 1,
+      "success": 0,
+      "errors": 0,
+      "skipped": 1,
+      "results": [
+        {
+          "name": "kinescope_poster_upload_poster",
+          "status": "skipped",
+          "message": "Ресурс не найден (возможно, нормально)"
+        }
+      ]
+    },
+    ":domain_id": {
+      "resource": ":domain_id",
+      "total": 2,
+      "success": 0,
+      "errors": 2,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:domain_id_delete_domain__domain_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:domain_id_update_domain__domain_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "privacy-domains": {
+      "resource": "privacy-domains",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_privacy-domains_create_domain",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_privacy-domains_get_domains",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":project_id": {
+      "resource": ":project_id",
+      "total": 8,
+      "success": 0,
+      "errors": 0,
+      "skipped": 8,
+      "results": [
+        {
+          "name": "kinescope_:project_id_create_folder__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_delete_folder__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_delete_project__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_folders_list__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_get_folder__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_get_project__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_update_folder__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:project_id_update_project__project_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        }
+      ]
+    },
+    "projects": {
+      "resource": "projects",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_projects_create_project",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_projects_projects_list",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    "rooms": {
+      "resource": "rooms",
+      "total": 10,
+      "success": 1,
+      "errors": 9,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_rooms_create_participant_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_rooms_create_room_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_rooms_delete_participant_rooms",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        },
+        {
+          "name": "kinescope_rooms_delete_room_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_rooms_get_participant_rooms",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        },
+        {
+          "name": "kinescope_rooms_get_room_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_rooms_list_participants_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_rooms_list_rooms_rooms",
+          "status": "success",
+          "message": "Успешно выполнен"
+        },
+        {
+          "name": "kinescope_rooms_update_participant_rooms",
+          "status": "error",
+          "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+        },
+        {
+          "name": "kinescope_rooms_update_room_rooms",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    ":tag_id": {
+      "resource": ":tag_id",
+      "total": 2,
+      "success": 0,
+      "errors": 2,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:tag_id_delete_tag__tag_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:tag_id_update_tag__tag_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "tags": {
+      "resource": "tags",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_tags_create_tag",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_tags_get_tags",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":video_id": {
+      "resource": ":video_id",
+      "total": 25,
+      "success": 0,
+      "errors": 0,
+      "skipped": 25,
+      "results": [
+        {
+          "name": "kinescope_:video_id_add_annotation__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_add_subtitle_file__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_concat_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_copy__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_copy_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_create_poster_by_time__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_cut_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_delete_annotation__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_delete_poster__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_delete_subtitle__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_delete_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_get_annotation__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_get_poster__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_get_subtitle__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_get_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_list_annotations__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_list_subtitles__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_move_video_to_another_project_and_folder__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_posters_list__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_reorder__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_set_active_poster__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_update_annotation__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_update_chapters__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_update_subtitle_info__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        },
+        {
+          "name": "kinescope_:video_id_update_video__video_id",
+          "status": "skipped",
+          "message": "Требуются данные из других тестов"
+        }
+      ]
+    },
+    "videos": {
+      "resource": "videos",
+      "total": 1,
+      "success": 1,
+      "errors": 0,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_videos_videos_list",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    },
+    ":webhook_id": {
+      "resource": ":webhook_id",
+      "total": 2,
+      "success": 0,
+      "errors": 2,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_:webhook_id_delete_webhook__webhook_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        },
+        {
+          "name": "kinescope_:webhook_id_update_webhook__webhook_id",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+        }
+      ]
+    },
+    "webhooks": {
+      "resource": "webhooks",
+      "total": 2,
+      "success": 1,
+      "errors": 1,
+      "skipped": 0,
+      "results": [
+        {
+          "name": "kinescope_webhooks_create_webhook",
+          "status": "error",
+          "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+          "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+        },
+        {
+          "name": "kinescope_webhooks_list_webhooks",
+          "status": "success",
+          "message": "Успешно выполнен"
+        }
+      ]
+    }
+  },
+  "allResults": [
+    {
+      "name": "kinescope_:token_id_delete_token__token_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:token_id_get_token__token_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_access-tokens_create_token",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_access-tokens_create_upload_token_to_specific_project",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_access-tokens_tokens_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:material_id_delete_additional_material__material_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:material_id_get_download_link__material_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:material_id_update_additional_material__material_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_reorder_reorder_additional_materials_reorder",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_analytics_custom",
+      "status": "skipped",
+      "message": "Ресурс не найден (возможно, нормально)"
+    },
+    {
+      "name": "kinescope_overview_overview_overview",
+      "status": "skipped",
+      "message": "Ресурс не найден (возможно, нормально)"
+    },
+    {
+      "name": "kinescope_avatar_delete_avatar",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_avatar_set_avatar",
+      "status": "error",
+      "message": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:26:17.091432986Z\"}}",
+      "error": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:26:17.091432986Z\"}}"
+    },
+    {
+      "name": "kinescope_avatar_show_avatar_avatar",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_avatar_show_avatar_avatar",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_usage_usage_usage",
+      "status": "skipped",
+      "message": "Ресурс не найден (возможно, нормально)"
+    },
+    {
+      "name": "kinescope_zones_create_zone_zones",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_zones_delete_zone_zones",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_zones_get_zones_zones",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_zones_update_zone_zones",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_timezones_timezones_list_timezones",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_auth_delete_auth_auth",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_auth_get_auth_auth",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_auth_update_auth_auth",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:file_request_id_delete_file_request__file_request_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:file_request_id_get_file_request__file_request_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:file_request_id_update_file_request__file_request_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_file-requests_create_file_request",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_file-requests_list_file_requests",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_chat_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_create_event_events",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_events_create_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_delete_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_delete_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_enable_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_event_videos_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_finish_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_get_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_get_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_list_events_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_list_restreams_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_move_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_qos_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_schedule_new_stream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_update_event_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_update_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_events_update_schedule_stream_events",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:moderator_id_delete_moderator__moderator_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:moderator_id_get_moderator__moderator_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:moderator_id_update_moderator__moderator_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_moderators_add_moderator",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_moderators_get_moderators",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:player_id_delete_logo__player_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 405 - {\"error\":{\"code\":400405,\"message\":\"method not allowed\"}}",
+      "error": "Kinescope API Error: 405 - {\"error\":{\"code\":400405,\"message\":\"method not allowed\"}}"
+    },
+    {
+      "name": "kinescope_:player_id_get_player__player_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:player_id_set_logo__player_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:player_id_update_player__player_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_players_create_player",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_players_get_players",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:playlist_id_add_medias__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:playlist_id_delete_medias__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:playlist_id_delete_playlist__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:playlist_id_get_playlist__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:playlist_id_list_medias__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:playlist_id_move_media__playlist_id",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Require",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_:playlist_id_update_playlist__playlist_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_playlists_create_playlist",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_playlists_list_playlists",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_poster_upload_poster",
+      "status": "skipped",
+      "message": "Ресурс не найден (возможно, нормально)"
+    },
+    {
+      "name": "kinescope_:domain_id_delete_domain__domain_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:domain_id_update_domain__domain_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_privacy-domains_create_domain",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_privacy-domains_get_domains",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_create_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_delete_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_delete_project__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_folders_list__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_get_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_get_project__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_update_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:project_id_update_project__project_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_projects_create_project",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_projects_projects_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_rooms_create_participant_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_rooms_create_room_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_rooms_delete_participant_rooms",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_rooms_delete_room_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_rooms_get_participant_rooms",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_rooms_get_room_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_rooms_list_participants_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_rooms_list_rooms_rooms",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_rooms_update_participant_rooms",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"R",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"participant_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_rooms_update_room_rooms",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:tag_id_delete_tag__tag_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:tag_id_update_tag__tag_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_tags_create_tag",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_tags_get_tags",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_add_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_add_subtitle_file__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_concat_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_copy__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_copy_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_create_poster_by_time__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_cut_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_delete_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_delete_poster__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_delete_subtitle__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_delete_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_get_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_get_poster__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_get_subtitle__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_get_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_list_annotations__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_list_subtitles__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_move_video_to_another_project_and_folder__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_posters_list__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_reorder__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_set_active_poster__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_update_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_update_chapters__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_update_subtitle_info__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_:video_id_update_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные из других тестов"
+    },
+    {
+      "name": "kinescope_videos_videos_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:webhook_id_delete_webhook__webhook_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_:webhook_id_update_webhook__webhook_id",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see htt",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400301,\"message\":\"invalid uuid format\",\"detail\":\"see https://en.wikipedia.org/wiki/Universally_unique_identifier\"}}"
+    },
+    {
+      "name": "kinescope_webhooks_create_webhook",
+      "status": "error",
+      "message": "Валидация: Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_webhooks_list_webhooks",
+      "status": "success",
+      "message": "Успешно выполнен"
+    }
+  ]
+}

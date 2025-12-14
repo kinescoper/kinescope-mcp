@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "kinescope": {
+      "command": "npx",
+      "args": ["-y", "@kinescope/mcp@latest", "--client=cursor"],
+      "env": {
+        "KINESCOPE_API_KEY": "your_kinescope_api_key_here"
+      }
+    }
+  }
+}
+
+# По умолчанию используются только динамические инструменты (3 инструмента)
+# Это оптимально для производительности и не превышает лимит Cursor в 80 инструментов
+#
+# Для использования всех статических инструментов (126 инструментов) добавьте:
+# "--include-all-tools"
+#
+# Для использования только определенных категорий:
+# "--include-all-tools", "--resource", "video.*", "--resource", "data.*"

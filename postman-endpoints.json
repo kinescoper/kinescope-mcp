@@ -1,0 +1,4420 @@
+{
+  "v1": {
+    "videos": [
+      {
+        "name": "Posters list",
+        "method": "GET",
+        "path": "v1/videos/:video_id/posters",
+        "fullPath": "v1/videos/posters/Posters list",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create poster by time",
+        "method": "POST",
+        "path": "v1/videos/:video_id/posters",
+        "fullPath": "v1/videos/posters/Create poster by time",
+        "queryParams": [],
+        "bodyParams": {
+          "from_time": 2.3333
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get poster",
+        "method": "GET",
+        "path": "v1/videos/:video_id/posters/:poster_id",
+        "fullPath": "v1/videos/posters/Get poster",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "poster_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Set active poster",
+        "method": "POST",
+        "path": "v1/videos/:video_id/posters/:poster_id/active",
+        "fullPath": "v1/videos/posters/Set active poster",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "poster_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete poster",
+        "method": "DELETE",
+        "path": "v1/videos/:video_id/posters/:poster_id",
+        "fullPath": "v1/videos/posters/Delete poster",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "poster_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List subtitles",
+        "method": "GET",
+        "path": "v1/videos/:video_id/subtitles",
+        "fullPath": "v1/videos/subtitles/List subtitles",
+        "queryParams": [],
+        "bodyParams": {
+          "language": "ru",
+          "description": "описание файла с субтитрами",
+          "file": ""
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Add subtitle  file",
+        "method": "POST",
+        "path": "v1/videos/:video_id/subtitles",
+        "fullPath": "v1/videos/subtitles/Add subtitle  file",
+        "queryParams": [],
+        "bodyParams": {
+          "language": "ru",
+          "description": "описание файла с субтитрами",
+          "file": ""
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Reorder",
+        "method": "PATCH",
+        "path": "v1/videos/:video_id/subtitles/reorder",
+        "fullPath": "v1/videos/subtitles/Reorder",
+        "queryParams": [],
+        "bodyParams": [
+          "37f1b240-7b4d-4931-b447-333ce64f61fc",
+          "aca44bfd-b76f-49db-aa91-4f145dfaa8d7",
+          "55e5a259-8f75-48db-9420-77383f447aa9",
+          "26daccfd-5dd9-4fe4-b085-773d1c2e6be8"
+        ],
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get subtitle",
+        "method": "GET",
+        "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+        "fullPath": "v1/videos/subtitles/Get subtitle",
+        "queryParams": [],
+        "bodyParams": {
+          "language": "ru",
+          "description": "описание файла с субтитрами",
+          "file": ""
+        },
+        "pathVars": [
+          "video_id",
+          "subtitle_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update subtitle info",
+        "method": "PATCH",
+        "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+        "fullPath": "v1/videos/subtitles/Update subtitle info",
+        "queryParams": [],
+        "bodyParams": {
+          "language": "ru",
+          "description": "desc111"
+        },
+        "pathVars": [
+          "video_id",
+          "subtitle_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Copy",
+        "method": "POST",
+        "path": "v1/videos/:video_id/subtitles/:subtitle_id/copy",
+        "fullPath": "v1/videos/subtitles/Copy",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "subtitle_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete subtitle",
+        "method": "DELETE",
+        "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+        "fullPath": "v1/videos/subtitles/Delete subtitle",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "subtitle_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get annotation",
+        "method": "GET",
+        "path": "v1/videos/:video_id/annotations/:annotation_id",
+        "fullPath": "v1/videos/annotations/Get annotation",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "annotation_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List annotations",
+        "method": "GET",
+        "path": "v1/videos/:video_id/annotations",
+        "fullPath": "v1/videos/annotations/List annotations",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Add annotation",
+        "method": "POST",
+        "path": "v1/videos/:video_id/annotations",
+        "fullPath": "v1/videos/annotations/Add annotation",
+        "queryParams": [],
+        "bodyParams": {
+          "video_id": "a8ea2af1-f322-41f7-abe3-24a3693921c9",
+          "annotation_poster_id": "2d93bc46-b12c-4eab-b584-133869816285",
+          "type": "video/text",
+          "title": "new annotation",
+          "link": "https://example.com",
+          "start_time": 0,
+          "end_time": 10000
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update annotation",
+        "method": "PUT",
+        "path": "v1/videos/:video_id/annotations/:annotation_id",
+        "fullPath": "v1/videos/annotations/Update annotation",
+        "queryParams": [],
+        "bodyParams": {
+          "video_id": "a8ea2af1-f322-41f7-abe3-24a3693921c9",
+          "annotation_poster_id": "2d93bc46-b12c-4eab-b584-133869816285",
+          "title": "new annotation",
+          "link": "https://example.com",
+          "start_time": 0,
+          "end_time": 10000
+        },
+        "pathVars": [
+          "video_id",
+          "annotation_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete annotation",
+        "method": "DELETE",
+        "path": "v1/videos/:video_id/annotations/:annotation_id",
+        "fullPath": "v1/videos/annotations/Delete annotation",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id",
+          "annotation_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Videos list",
+        "method": "GET",
+        "path": "v1/videos",
+        "fullPath": "v1/videos/Videos list",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "100",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "created_at.desc,title.asc",
+            "description": "title, description, created_at, updated_at, duration"
+          },
+          {
+            "key": "status[]",
+            "value": "",
+            "description": "pending, uploading, pre-processing, processing, aborted, done, error"
+          },
+          {
+            "key": "folder_id",
+            "value": "",
+            "description": ""
+          },
+          {
+            "key": "project_id",
+            "value": "",
+            "description": ""
+          },
+          {
+            "key": "video_ids[]",
+            "value": "",
+            "description": "List of video IDs to fetch"
+          },
+          {
+            "key": "q",
+            "value": "",
+            "description": "String for searching in title, description"
+          },
+          {
+            "key": "without_folder",
+            "value": "true",
+            "description": "Show only videos without folder"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get video",
+        "method": "GET",
+        "path": "v1/videos/:video_id",
+        "fullPath": "v1/videos/Get video",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update video",
+        "method": "PATCH",
+        "path": "v1/videos/:video_id",
+        "fullPath": "v1/videos/Update video",
+        "queryParams": [],
+        "bodyParams": {
+          "title": "New title",
+          "description": "New description",
+          "privacy_type": "custom",
+          "privacy_domains": [
+            "my_domain.io"
+          ],
+          "additional_materials_enabled": false,
+          "tags": [
+            "tag 1",
+            "tag 2",
+            "tag 3"
+          ]
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete video",
+        "method": "DELETE",
+        "path": "v1/videos/:video_id",
+        "fullPath": "v1/videos/Delete video",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Move video to another project and folder",
+        "method": "PUT",
+        "path": "v1/videos/:video_id/move",
+        "fullPath": "v1/videos/Move video to another project and folder",
+        "queryParams": [],
+        "bodyParams": {
+          "project_id": "3kAyiWTAZQKKZxg1GfjKvS",
+          "folder_id": "2MxB8wx35jHQjhCPczBamu"
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update chapters",
+        "method": "PUT",
+        "path": "v1/videos/:video_id/chapters",
+        "fullPath": "v1/videos/Update chapters",
+        "queryParams": [],
+        "bodyParams": {
+          "items": [
+            {
+              "time": 10000,
+              "title": "Chapter at 10sec"
+            }
+          ],
+          "enabled": true
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Concat video",
+        "method": "POST",
+        "path": "v1/videos/:video_id/concat",
+        "fullPath": "v1/videos/Concat video",
+        "queryParams": [],
+        "bodyParams": {
+          "prepend": [
+            {
+              "video_id": "5b89912b-3a7f-48cb-b8df-cc20fa7e8c5d"
+            }
+          ],
+          "append": [
+            {
+              "video_id": "9460903b-b179-484c-b62e-31edcfa56069"
+            }
+          ],
+          "replace": false
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Copy video",
+        "method": "POST",
+        "path": "v1/videos/:video_id/copy",
+        "fullPath": "v1/videos/Copy video",
+        "queryParams": [],
+        "bodyParams": {
+          "parent_id": "9460903b-b179-484c-b62e-31edcfa56069"
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Cut video",
+        "method": "POST",
+        "path": "v1/videos/:video_id/cut",
+        "fullPath": "v1/videos/Cut video",
+        "queryParams": [],
+        "bodyParams": {
+          "crop": {
+            "w": 300,
+            "h": 200,
+            "x": 100,
+            "y": 80,
+            "quality": "360p"
+          },
+          "trim": [
+            {
+              "start": 6,
+              "length": 2
+            },
+            {
+              "start": 1,
+              "length": 2
+            }
+          ]
+        },
+        "pathVars": [
+          "video_id"
+        ],
+        "description": ""
+      }
+    ],
+    "billing": [
+      {
+        "name": "Usage",
+        "method": "GET",
+        "path": "v1/billing/usage",
+        "fullPath": "v1/billing/Usage",
+        "queryParams": [
+          {
+            "key": "from",
+            "value": "2024-01-01",
+            "description": ""
+          },
+          {
+            "key": "to",
+            "value": "2024-02-01",
+            "description": ""
+          },
+          {
+            "key": "group_by",
+            "value": "project_id",
+            "description": "Available values: project_id"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ],
+    "projects": [
+      {
+        "name": "Create project",
+        "method": "POST",
+        "path": "v1/projects",
+        "fullPath": "v1/projects/Create project",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Project custom",
+          "privacy_type": "custom",
+          "privacy_domains": [
+            "custom.domain.com"
+          ],
+          "player_id": "...",
+          "encrypted": false,
+          "catalog_type": "vod"
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Projects list",
+        "method": "GET",
+        "path": "v1/projects",
+        "fullPath": "v1/projects/Projects list",
+        "queryParams": [
+          {
+            "key": "catalog_type",
+            "value": "vod",
+            "description": "Default: vod. Available: live or vod"
+          },
+          {
+            "key": "per_page",
+            "value": "100",
+            "description": ""
+          },
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get project",
+        "method": "GET",
+        "path": "v1/projects/:project_id",
+        "fullPath": "v1/projects/Get project",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete project",
+        "method": "DELETE",
+        "path": "v1/projects/:project_id",
+        "fullPath": "v1/projects/Delete project",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update project",
+        "method": "PUT",
+        "path": "v1/projects/:project_id",
+        "fullPath": "v1/projects/Update project",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Project name updated",
+          "privacy_type": "anywhere",
+          "privacy_domains": [],
+          "apply_to_videos": false,
+          "player_id": "..."
+        },
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create folder",
+        "method": "POST",
+        "path": "v1/projects/:project_id/folders",
+        "fullPath": "v1/folders/Create folder",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "New folder 1",
+          "parent_id": "f1e9a79c-8765-4b0b-b228-0903e83d60be"
+        },
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Folders list",
+        "method": "GET",
+        "path": "v1/projects/:project_id/folders",
+        "fullPath": "v1/folders/Folders list",
+        "queryParams": [
+          {
+            "key": "order",
+            "value": "created_at.desc",
+            "description": "Available fields: \nname, created_at"
+          },
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "10",
+            "description": ""
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get folder",
+        "method": "GET",
+        "path": "v1/projects/:project_id/folders/:folder_id",
+        "fullPath": "v1/folders/Get folder",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id",
+          "folder_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update folder",
+        "method": "PUT",
+        "path": "v1/projects/:project_id/folders/:folder_id",
+        "fullPath": "v1/folders/Update folder",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "New folder updated"
+        },
+        "pathVars": [
+          "project_id",
+          "folder_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete folder",
+        "method": "DELETE",
+        "path": "v1/projects/:project_id/folders/:folder_id",
+        "fullPath": "v1/folders/Delete folder",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id",
+          "folder_id"
+        ],
+        "description": ""
+      }
+    ],
+    "analytics": [
+      {
+        "name": "Overview",
+        "method": "GET",
+        "path": "v1/analytics/overview",
+        "fullPath": "v1/analytics/Overview",
+        "queryParams": [
+          {
+            "key": "from",
+            "value": "2020-08-30",
+            "description": ""
+          },
+          {
+            "key": "to",
+            "value": "2020-09-01",
+            "description": ""
+          },
+          {
+            "key": "group_time",
+            "value": "day",
+            "description": "hour, week, month, day (default)"
+          },
+          {
+            "key": "video_id",
+            "value": "",
+            "description": "not required"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Custom",
+        "method": "GET",
+        "path": "v1/analytics",
+        "fullPath": "v1/analytics/Custom",
+        "queryParams": [
+          {
+            "key": "from",
+            "value": "2020-11-01T06:00:00Z",
+            "description": "must be YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ"
+          },
+          {
+            "key": "to",
+            "value": "2020-11-01T12:00:00Z",
+            "description": "must be YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ"
+          },
+          {
+            "key": "group",
+            "value": "day",
+            "description": "hour, week, month, day"
+          },
+          {
+            "key": "group_entities",
+            "value": "video_id",
+            "description": "video_id, device, watch_time, city, country_code, folder_name, folder_id, project_name, project_id"
+          },
+          {
+            "key": "fields",
+            "value": "video_id",
+            "description": "view, seek, play, pause, replay, player_init, player_load, buffering_time, buffering_count, video_id, workspace_id, device, watch_time, city, country_code, folder_name, folder_id, project_name, project_id, unique_view, external_id"
+          },
+          {
+            "key": "order",
+            "value": "view.desc,play.desc",
+            "description": "not required"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ],
+    "additional-materials": [
+      {
+        "name": "Get download link",
+        "method": "GET",
+        "path": "v1/additional-materials/:material_id/link",
+        "fullPath": "v1/additional-materials/Get download link",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "material_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update additional material",
+        "method": "PUT",
+        "path": "v1/additional-materials/:material_id",
+        "fullPath": "v1/additional-materials/Update additional material",
+        "queryParams": [],
+        "bodyParams": {
+          "title": "New title"
+        },
+        "pathVars": [
+          "material_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Reorder additional materials",
+        "method": "PATCH",
+        "path": "v1/additional-materials/reorder",
+        "fullPath": "v1/additional-materials/Reorder additional materials",
+        "queryParams": [],
+        "bodyParams": [
+          "8VYZT2rW5vbvRBcWruuNFo",
+          "b32Wjbh6a3pYNaKvfxhXFU"
+        ],
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Delete additional material",
+        "method": "DELETE",
+        "path": "v1/additional-materials/:material_id",
+        "fullPath": "v1/additional-materials/Delete additional material",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "material_id"
+        ],
+        "description": ""
+      }
+    ],
+    "dictionaries": [
+      {
+        "name": "Timezones list",
+        "method": "GET",
+        "path": "v1/dictionaries/timezones",
+        "fullPath": "v1/dictionaries/Timezones list",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ],
+    "access-tokens": [
+      {
+        "name": "Create token",
+        "method": "POST",
+        "path": "v1/access-tokens",
+        "fullPath": "v1/access-tokens/Create token",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "token1",
+          "scope": {
+            "api": {
+              "permissions": [
+                "read",
+                "write",
+                "delete"
+              ]
+            },
+            "upload": {
+              "permissions": []
+            }
+          }
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Create upload token to specific project",
+        "method": "POST",
+        "path": "v1/access-tokens",
+        "fullPath": "v1/access-tokens/Create upload token to specific project",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "token for upload to project",
+          "scope": {
+            "upload": {
+              "entities": [
+                {
+                  "id": "89567a90-0eef-4d0b-97d5-9e1f1bf08fca",
+                  "permissions": [
+                    "read",
+                    "write",
+                    "delete"
+                  ]
+                }
+              ],
+              "permissions": []
+            }
+          }
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Tokens list",
+        "method": "GET",
+        "path": "v1/access-tokens",
+        "fullPath": "v1/access-tokens/Tokens list",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get token",
+        "method": "GET",
+        "path": "v1/access-tokens/:token_id",
+        "fullPath": "v1/access-tokens/Get token",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "token_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete token",
+        "method": "DELETE",
+        "path": "v1/access-tokens/:token_id",
+        "fullPath": "v1/access-tokens/Delete token",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "token_id"
+        ],
+        "description": ""
+      }
+    ],
+    "user": [
+      {
+        "name": "Show avatar",
+        "method": "GET",
+        "path": "v1/user/avatar/:avatar_id",
+        "fullPath": "v1/user/avatar/Show avatar",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "avatar_id"
+        ],
+        "description": ""
+      }
+    ],
+    "avatar": [
+      {
+        "name": "Set avatar",
+        "method": "POST",
+        "path": "v1/avatar",
+        "fullPath": "v1/avatars/Set avatar",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Delete avatar",
+        "method": "DELETE",
+        "path": "v1/avatar",
+        "fullPath": "v1/avatars/Delete avatar",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ],
+    "workspace": [
+      {
+        "name": "Show avatar",
+        "method": "GET",
+        "path": "v1/workspace/avatar/:avatar_id",
+        "fullPath": "v1/avatars/Show avatar",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "avatar_id"
+        ],
+        "description": ""
+      }
+    ],
+    "players": [
+      {
+        "name": "Get players",
+        "method": "GET",
+        "path": "v1/players",
+        "fullPath": "v1/players/Get players",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get player",
+        "method": "GET",
+        "path": "v1/players/:player_id",
+        "fullPath": "v1/players/Get player",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "my player 1.1",
+          "settings": {}
+        },
+        "pathVars": [
+          "player_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create player",
+        "method": "POST",
+        "path": "v1/players",
+        "fullPath": "v1/players/Create player",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "my player 1",
+          "settings": {},
+          "ads": [
+            {
+              "url": "url",
+              "trigger": {
+                "type": "preroll/midroll/postroll",
+                "trigger_settings": {
+                  "timePoints": [
+                    10
+                  ],
+                  "percentages": [
+                    50
+                  ],
+                  "interval": 30
+                }
+              },
+              "countries": {
+                "items": [
+                  "ru"
+                ],
+                "type": "include/exclude"
+              }
+            }
+          ]
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update player",
+        "method": "PUT",
+        "path": "v1/players/:player_id",
+        "fullPath": "v1/players/Update player",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "my player 1.1",
+          "settings": {},
+          "ads": [
+            {
+              "url": "url",
+              "trigger": {
+                "type": "preroll/midroll/postroll",
+                "trigger_settings": {
+                  "timePoints": [
+                    10
+                  ],
+                  "percentages": [
+                    50
+                  ],
+                  "interval": 30
+                }
+              },
+              "countries": {
+                "items": [
+                  "ru"
+                ],
+                "type": "include/exclude"
+              }
+            }
+          ]
+        },
+        "pathVars": [
+          "player_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Set logo",
+        "method": "POST",
+        "path": "v1/players/:player_id/logo",
+        "fullPath": "v1/players/Set logo",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "player_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete logo",
+        "method": "DELETE",
+        "path": "v1/players/:player_id/logo",
+        "fullPath": "v1/players/Delete logo",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "player_id"
+        ],
+        "description": ""
+      }
+    ],
+    "file-requests": [
+      {
+        "name": "List file requests",
+        "method": "GET",
+        "path": "v1/file-requests",
+        "fullPath": "v1/file-requests/List file requests",
+        "queryParams": [
+          {
+            "key": "archived",
+            "value": "false",
+            "description": ""
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get file request",
+        "method": "GET",
+        "path": "v1/file-requests/:file_request_id",
+        "fullPath": "v1/file-requests/Get file request",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "file_request_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create file request",
+        "method": "POST",
+        "path": "v1/file-requests",
+        "fullPath": "v1/file-requests/Create file request",
+        "queryParams": [],
+        "bodyParams": {
+          "title": "Заголовок",
+          "description": "Описание",
+          "uploading_location_id": "aUXVrK41BmeNVwyxQ4at6x",
+          "expired_at": null
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update file request",
+        "method": "PUT",
+        "path": "v1/file-requests/:file_request_id",
+        "fullPath": "v1/file-requests/Update file request",
+        "queryParams": [],
+        "bodyParams": {
+          "title": "Rename request",
+          "uploading_location_id": "eR9N13hPU2vynDwJxrwoyP",
+          "expired_at": null,
+          "archived": false
+        },
+        "pathVars": [
+          "file_request_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete file request",
+        "method": "DELETE",
+        "path": "v1/file-requests/:file_request_id",
+        "fullPath": "v1/file-requests/Delete file request",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Rename request",
+          "folder_id": "eR9N13hPU2vynDwJxrwoyP",
+          "expired_at": null,
+          "archived": false
+        },
+        "pathVars": [
+          "file_request_id"
+        ],
+        "description": ""
+      }
+    ],
+    "drm": [
+      {
+        "name": "Get auth",
+        "method": "GET",
+        "path": "v1/drm/auth/:project_id",
+        "fullPath": "v1/drm/on project/Get auth",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update auth",
+        "method": "PUT",
+        "path": "v1/drm/auth/:project_id",
+        "fullPath": "v1/drm/on project/Update auth",
+        "queryParams": [],
+        "bodyParams": {
+          "url": "https://example.io/auth/kinescope",
+          "username": "",
+          "password": "",
+          "strict": false
+        },
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete auth",
+        "method": "DELETE",
+        "path": "v1/drm/auth/:project_id",
+        "fullPath": "v1/drm/on project/Delete auth",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "project_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get auth",
+        "method": "GET",
+        "path": "v1/drm/auth",
+        "fullPath": "v1/drm/Get auth",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update auth",
+        "method": "PUT",
+        "path": "v1/drm/auth",
+        "fullPath": "v1/drm/Update auth",
+        "queryParams": [],
+        "bodyParams": {
+          "url": "https://example.io/auth/kinescope",
+          "username": "",
+          "password": "",
+          "strict": true
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Delete auth",
+        "method": "DELETE",
+        "path": "v1/drm/auth",
+        "fullPath": "v1/drm/Delete auth",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ],
+    "privacy-domains": [
+      {
+        "name": "Get domains",
+        "method": "GET",
+        "path": "v1/privacy-domains",
+        "fullPath": "v1/privacy-domains/Get domains",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Create domain",
+        "method": "POST",
+        "path": "v1/privacy-domains",
+        "fullPath": "v1/privacy-domains/Create domain",
+        "queryParams": [],
+        "bodyParams": {
+          "domain": "test.ru"
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update domain",
+        "method": "PUT",
+        "path": "v1/privacy-domains/:domain_id",
+        "fullPath": "v1/privacy-domains/Update domain",
+        "queryParams": [],
+        "bodyParams": {
+          "domain": "test.ru",
+          "archived": true
+        },
+        "pathVars": [
+          "domain_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete domain",
+        "method": "DELETE",
+        "path": "v1/privacy-domains/:domain_id",
+        "fullPath": "v1/privacy-domains/Delete domain",
+        "queryParams": [],
+        "bodyParams": {
+          "domain": "test.ru",
+          "archived": true
+        },
+        "pathVars": [
+          "domain_id"
+        ],
+        "description": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "Get tags",
+        "method": "GET",
+        "path": "v1/tags",
+        "fullPath": "v1/tags/Get tags",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Create tag",
+        "method": "POST",
+        "path": "v1/tags",
+        "fullPath": "v1/tags/Create tag",
+        "queryParams": [],
+        "bodyParams": {
+          "tag": "tag1"
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update tag",
+        "method": "PUT",
+        "path": "v1/tags/:tag_id",
+        "fullPath": "v1/tags/Update tag",
+        "queryParams": [],
+        "bodyParams": {
+          "tag": "tag1",
+          "archived": true
+        },
+        "pathVars": [
+          "tag_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete tag",
+        "method": "DELETE",
+        "path": "v1/tags/:tag_id",
+        "fullPath": "v1/tags/Delete tag",
+        "queryParams": [],
+        "bodyParams": {
+          "domain": "test.ru",
+          "archived": true
+        },
+        "pathVars": [
+          "tag_id"
+        ],
+        "description": ""
+      }
+    ],
+    "playlists": [
+      {
+        "name": "List medias",
+        "method": "GET",
+        "path": "v1/playlists/:playlist_id/entities",
+        "fullPath": "v1/playlists/entities/List medias",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Add medias",
+        "method": "POST",
+        "path": "v1/playlists/:playlist_id/entities",
+        "fullPath": "v1/playlists/entities/Add medias",
+        "queryParams": [],
+        "bodyParams": {
+          "entity_ids": [
+            "dbce4d0f-61d8-442e-bbd7-050e88ed6314"
+          ]
+        },
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete medias",
+        "method": "DELETE",
+        "path": "v1/playlists/:playlist_id/entities",
+        "fullPath": "v1/playlists/entities/Delete medias",
+        "queryParams": [],
+        "bodyParams": {
+          "entity_ids": [
+            "dbce4d0f-61d8-442e-bbd7-050e88ed6314"
+          ]
+        },
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Move media",
+        "method": "PUT",
+        "path": "v1/playlists/:playlist_id/entities/:media_id/move",
+        "fullPath": "v1/playlists/entities/Move media",
+        "queryParams": [],
+        "bodyParams": {
+          "position": 2
+        },
+        "pathVars": [
+          "playlist_id",
+          "media_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get playlist",
+        "method": "GET",
+        "path": "v1/playlists/:playlist_id",
+        "fullPath": "v1/playlists/Get playlist",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List playlists",
+        "method": "GET",
+        "path": "v1/playlists",
+        "fullPath": "v1/playlists/List playlists",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "100",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "name.desc",
+            "description": "title, description, created_at, updated_at"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Create playlist",
+        "method": "POST",
+        "path": "v1/playlists",
+        "fullPath": "v1/playlists/Create playlist",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Playlist 1",
+          "parent_id": "10dabb39-ed6b-499f-afd0-38abec362ab4",
+          "entity_ids": [
+            "c646fb49-7a98-4aa2-bc77-995f3250c6a4"
+          ]
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update playlist",
+        "method": "PATCH",
+        "path": "v1/playlists/:playlist_id",
+        "fullPath": "v1/playlists/Update playlist",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Playlist updated",
+          "description": "Description updated",
+          "parent_id": "10dabb39-ed6b-499f-afd0-38abec362ab4",
+          "privacy_type": "anywhere",
+          "privacy_domains": [
+            "dddd.com"
+          ],
+          "settings": {
+            "sort_field": "duration",
+            "sort_order": "asc"
+          }
+        },
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete playlist",
+        "method": "DELETE",
+        "path": "v1/playlists/:playlist_id",
+        "fullPath": "v1/playlists/Delete playlist",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "playlist_id"
+        ],
+        "description": ""
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Get moderators",
+        "method": "GET",
+        "path": "v1/moderators",
+        "fullPath": "v1/moderators/Get moderators",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Add moderator",
+        "method": "POST",
+        "path": "v1/moderators",
+        "fullPath": "v1/moderators/Add moderator",
+        "queryParams": [],
+        "bodyParams": {
+          "username": "user_admin",
+          "email": "adm@mail.ru",
+          "password": "password"
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get moderator",
+        "method": "GET",
+        "path": "v1/moderators/:moderator_id",
+        "fullPath": "v1/moderators/Get moderator",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "moderator_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update moderator",
+        "method": "PUT",
+        "path": "v1/moderators/:moderator_id",
+        "fullPath": "v1/moderators/Update moderator",
+        "queryParams": [],
+        "bodyParams": {
+          "username": "user_admin_2",
+          "email": "adm@mail.ru",
+          "password": "password"
+        },
+        "pathVars": [
+          "moderator_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete moderator",
+        "method": "DELETE",
+        "path": "v1/moderators/:moderator_id",
+        "fullPath": "v1/moderators/Delete moderator",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "moderator_id"
+        ],
+        "description": ""
+      }
+    ],
+    "webhooks": [
+      {
+        "name": "List webhooks",
+        "method": "GET",
+        "path": "v1/webhooks",
+        "fullPath": "v1/webhooks/List webhooks",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Create webhook",
+        "method": "POST",
+        "path": "v1/webhooks",
+        "fullPath": "v1/webhooks/Create webhook",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "webhook1",
+          "endpoint": "https://example.io/kinescope/webhook",
+          "login": "",
+          "password": "",
+          "events": [
+            "media.update.status"
+          ]
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update webhook",
+        "method": "PUT",
+        "path": "v1/webhooks/:webhook_id",
+        "fullPath": "v1/webhooks/Update webhook",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "webhook1_edit2",
+          "endpoint": "https://example.io/kin/webhook",
+          "login": "123",
+          "password": "2222",
+          "events": [
+            "media.update.status"
+          ]
+        },
+        "pathVars": [
+          "webhook_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete webhook",
+        "method": "DELETE",
+        "path": "v1/webhooks/:webhook_id",
+        "fullPath": "v1/webhooks/Delete webhook",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "webhook_id"
+        ],
+        "description": ""
+      }
+    ],
+    "cdn": [
+      {
+        "name": "Create zone",
+        "method": "POST",
+        "path": "v1/cdn/zones",
+        "fullPath": "v1/cdn/Create zone",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "test3.edge.kinescope.dev",
+          "host": "test3.edge.kinescope.dev",
+          "origins": [
+            {
+              "addr": "test2.example.ru",
+              "basic_auth": {
+                "username": "user",
+                "password": "pass"
+              }
+            }
+          ],
+          "access_control": {
+            "jwt_secret": "token",
+            "secure_link": "link"
+          },
+          "settings": {
+            "ignore_query_strings": true,
+            "index_html": "index.html",
+            "block_bad_bots": false
+          }
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get zones",
+        "method": "GET",
+        "path": "v1/cdn/zones",
+        "fullPath": "v1/cdn/Get zones",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update zone",
+        "method": "PUT",
+        "path": "v1/cdn/zones/:zone_id",
+        "fullPath": "v1/cdn/Update zone",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "test3.edge.kinescope.dev",
+          "host": "test3.edge.kinescope.dev",
+          "origins": [
+            {
+              "addr": "test.example.ru",
+              "basic_auth": {
+                "username": "user111",
+                "password": "pass222"
+              }
+            }
+          ],
+          "access_control": {
+            "jwt_secret": "token",
+            "secure_link": "link"
+          },
+          "settings": {
+            "ignore_query_strings": true,
+            "index_html": "index.html",
+            "block_bad_bots": false
+          }
+        },
+        "pathVars": [
+          "zone_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete zone",
+        "method": "DELETE",
+        "path": "v1/cdn/zones/:zone_id",
+        "fullPath": "v1/cdn/Delete zone",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "zone_id"
+        ],
+        "description": ""
+      }
+    ],
+    "speak": [
+      {
+        "name": "List Participants",
+        "method": "GET",
+        "path": "v1/speak/rooms/:room_id/participants",
+        "fullPath": "v1/speak/rooms/participants/List Participants",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "10",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "created_at.desc,name.asc",
+            "description": "Available fields - name, role, created_at, updated_at"
+          },
+          {
+            "key": "q",
+            "value": "",
+            "description": "Search by room name"
+          },
+          {
+            "key": "role[]",
+            "value": "",
+            "description": "admin, manager"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get Participant",
+        "method": "GET",
+        "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+        "fullPath": "v1/speak/rooms/participants/Get Participant",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id",
+          "participant_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create Participant",
+        "method": "POST",
+        "path": "v1/speak/rooms/:room_id/participants",
+        "fullPath": "v1/speak/rooms/participants/Create Participant",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update Participant",
+        "method": "PATCH",
+        "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+        "fullPath": "v1/speak/rooms/participants/Update Participant",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id",
+          "participant_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete Participant",
+        "method": "DELETE",
+        "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+        "fullPath": "v1/speak/rooms/participants/Delete Participant",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id",
+          "participant_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List Rooms",
+        "method": "GET",
+        "path": "v1/speak/rooms",
+        "fullPath": "v1/speak/rooms/List Rooms",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "10",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "created_at.desc,name.asc",
+            "description": "Available fields - name, code, type, status, created_at, updated_at"
+          },
+          {
+            "key": "status[]",
+            "value": "",
+            "description": "pending, scheduled, active, cancelled, finished"
+          },
+          {
+            "key": "type[]",
+            "value": "",
+            "description": "instant_meeting, permanent_meeting"
+          },
+          {
+            "key": "code[]",
+            "value": "",
+            "description": ""
+          },
+          {
+            "key": "q",
+            "value": "",
+            "description": "Search by room name"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Get Room",
+        "method": "GET",
+        "path": "v1/speak/rooms/:room_id",
+        "fullPath": "v1/speak/rooms/Get Room",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create Room",
+        "method": "POST",
+        "path": "v1/speak/rooms",
+        "fullPath": "v1/speak/rooms/Create Room",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update Room",
+        "method": "PATCH",
+        "path": "v1/speak/rooms/:room_id",
+        "fullPath": "v1/speak/rooms/Update Room",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete Room",
+        "method": "DELETE",
+        "path": "v1/speak/rooms/:room_id",
+        "fullPath": "v1/speak/rooms/Delete Room",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "room_id"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  "v2": {
+    "live": [
+      {
+        "name": "Create restream",
+        "method": "POST",
+        "path": "v2/live/events/:event_id/restreams",
+        "fullPath": "v2/live/restreams/Create restream",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Restream name",
+          "url": "rtmp://rtmp.kinescope.io/live",
+          "key": "stream key",
+          "description": "Description",
+          "enabled": true
+        },
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update restream",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id/restreams/:restream_id",
+        "fullPath": "v2/live/restreams/Update restream",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "Restream name 1",
+          "url": "rtmp://rtmp.kinescope.io/live",
+          "key": "stream key",
+          "description": "Description",
+          "enabled": true
+        },
+        "pathVars": [
+          "event_id",
+          "restream_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get restream",
+        "method": "GET",
+        "path": "v2/live/events/:event_id/restreams/:restream_id",
+        "fullPath": "v2/live/restreams/Get restream",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id",
+          "restream_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List restreams",
+        "method": "GET",
+        "path": "v2/live/events/:event_id/restreams/:restream_id",
+        "fullPath": "v2/live/restreams/List restreams",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id",
+          "restream_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete restream",
+        "method": "DELETE",
+        "path": "v2/live/events/:event_id/restreams/:restream_id",
+        "fullPath": "v2/live/restreams/Delete restream",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id",
+          "restream_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Create event",
+        "method": "POST",
+        "path": "v2/live/events",
+        "fullPath": "v2/live/Create event",
+        "queryParams": [],
+        "bodyParams": {
+          "name": "New event",
+          "type": "recurring",
+          "auto_start": true,
+          "protected": false,
+          "time_shift": false,
+          "parent_id": "c73909aa-2ebf-4676-bdab-8010ab503075",
+          "reconnect_window": 600,
+          "scheduled": {
+            "time": "2022-12-19T00:05:41.634922Z"
+          },
+          "record": {
+            "parent_id": "c21d86ac-7e90-43e7-b825-cbf300951355"
+          },
+          "video": {
+            "presets": [
+              "360p",
+              "1080p"
+            ]
+          },
+          "restreams": [
+            {
+              "name": "Restream 1",
+              "url": "rtmp://rtmp.kinescope.dev/live",
+              "key": "stream key"
+            }
+          ],
+          "latency_mode": "standard",
+          "show_members": true,
+          "chat_active": false,
+          "chat_after_stream": true,
+          "chat_preview": true
+        },
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Update event",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id",
+        "fullPath": "v2/live/Update event",
+        "queryParams": [],
+        "bodyParams": {
+          "name": ""
+        },
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Get event",
+        "method": "GET",
+        "path": "v2/live/events/:event_id",
+        "fullPath": "v2/live/Get event",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "List events",
+        "method": "GET",
+        "path": "v2/live/events",
+        "fullPath": "v2/live/List events",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "1",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "100",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "created_at.desc,name.asc",
+            "description": "created_at, name"
+          },
+          {
+            "key": "folder_id",
+            "value": "9ff4d2c0-e4fd-4eaf-b95a-c60e4723497e",
+            "description": "Show only events from this folder"
+          },
+          {
+            "key": "project_id",
+            "value": "89154aca-a01f-4f04-958e-b3bbf51b4466",
+            "description": "Show only events from this project"
+          },
+          {
+            "key": "without_folder",
+            "value": "true",
+            "description": "Show only events without folder"
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Event videos",
+        "method": "GET",
+        "path": "v2/live/events/:event_id/videos",
+        "fullPath": "v2/live/Event videos",
+        "queryParams": [
+          {
+            "key": "page",
+            "value": "",
+            "description": ""
+          },
+          {
+            "key": "per_page",
+            "value": "",
+            "description": ""
+          },
+          {
+            "key": "order",
+            "value": "created_at.desc",
+            "description": ""
+          }
+        ],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Enable event",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id/enable",
+        "fullPath": "v2/live/Enable event",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Finish event",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id/complete",
+        "fullPath": "v2/live/Finish event",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Schedule new stream",
+        "method": "POST",
+        "path": "v2/live/events/:event_id/stream",
+        "fullPath": "v2/live/Schedule new stream",
+        "queryParams": [],
+        "bodyParams": {
+          "started_at": "2022-11-15T12:42:00.991558Z"
+        },
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Update schedule stream",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id/stream",
+        "fullPath": "v2/live/Update schedule stream",
+        "queryParams": [],
+        "bodyParams": {
+          "started_at": "2024-11-15T12:42:00.991558Z"
+        },
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Delete event",
+        "method": "DELETE",
+        "path": "v2/live/events/:event_id",
+        "fullPath": "v2/live/Delete event",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Move event",
+        "method": "PUT",
+        "path": "v2/live/events/:event_id/move",
+        "fullPath": "v2/live/Move event",
+        "queryParams": [],
+        "bodyParams": {
+          "parent_id": "b5bf16d0-6722-4c82-bb55-b2eac5264a50"
+        },
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Qos",
+        "method": "GET",
+        "path": "v2/live/events/:event_id/qos",
+        "fullPath": "v2/live/Qos",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id"
+        ],
+        "description": ""
+      },
+      {
+        "name": "Chat",
+        "method": "GET",
+        "path": "v2/live/events/:event_id/stream/:stream_id/chat(.json|.csv|.txt)",
+        "fullPath": "v2/live/Chat",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [
+          "event_id",
+          "stream_id"
+        ],
+        "description": ""
+      }
+    ],
+    "poster": [
+      {
+        "name": "Upload poster",
+        "method": "POST",
+        "path": "v2/poster",
+        "fullPath": "v2/live/Upload poster",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      },
+      {
+        "name": "Upload poster",
+        "method": "POST",
+        "path": "v2/poster",
+        "fullPath": "v2/posters/Upload poster",
+        "queryParams": [],
+        "bodyParams": null,
+        "pathVars": [],
+        "description": ""
+      }
+    ]
+  },
+  "all": [
+    {
+      "name": "Posters list",
+      "method": "GET",
+      "path": "v1/videos/:video_id/posters",
+      "fullPath": "v1/videos/posters/Posters list",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create poster by time",
+      "method": "POST",
+      "path": "v1/videos/:video_id/posters",
+      "fullPath": "v1/videos/posters/Create poster by time",
+      "queryParams": [],
+      "bodyParams": {
+        "from_time": 2.3333
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get poster",
+      "method": "GET",
+      "path": "v1/videos/:video_id/posters/:poster_id",
+      "fullPath": "v1/videos/posters/Get poster",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "poster_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Set active poster",
+      "method": "POST",
+      "path": "v1/videos/:video_id/posters/:poster_id/active",
+      "fullPath": "v1/videos/posters/Set active poster",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "poster_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete poster",
+      "method": "DELETE",
+      "path": "v1/videos/:video_id/posters/:poster_id",
+      "fullPath": "v1/videos/posters/Delete poster",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "poster_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List subtitles",
+      "method": "GET",
+      "path": "v1/videos/:video_id/subtitles",
+      "fullPath": "v1/videos/subtitles/List subtitles",
+      "queryParams": [],
+      "bodyParams": {
+        "language": "ru",
+        "description": "описание файла с субтитрами",
+        "file": ""
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Add subtitle  file",
+      "method": "POST",
+      "path": "v1/videos/:video_id/subtitles",
+      "fullPath": "v1/videos/subtitles/Add subtitle  file",
+      "queryParams": [],
+      "bodyParams": {
+        "language": "ru",
+        "description": "описание файла с субтитрами",
+        "file": ""
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Reorder",
+      "method": "PATCH",
+      "path": "v1/videos/:video_id/subtitles/reorder",
+      "fullPath": "v1/videos/subtitles/Reorder",
+      "queryParams": [],
+      "bodyParams": [
+        "37f1b240-7b4d-4931-b447-333ce64f61fc",
+        "aca44bfd-b76f-49db-aa91-4f145dfaa8d7",
+        "55e5a259-8f75-48db-9420-77383f447aa9",
+        "26daccfd-5dd9-4fe4-b085-773d1c2e6be8"
+      ],
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get subtitle",
+      "method": "GET",
+      "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+      "fullPath": "v1/videos/subtitles/Get subtitle",
+      "queryParams": [],
+      "bodyParams": {
+        "language": "ru",
+        "description": "описание файла с субтитрами",
+        "file": ""
+      },
+      "pathVars": [
+        "video_id",
+        "subtitle_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update subtitle info",
+      "method": "PATCH",
+      "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+      "fullPath": "v1/videos/subtitles/Update subtitle info",
+      "queryParams": [],
+      "bodyParams": {
+        "language": "ru",
+        "description": "desc111"
+      },
+      "pathVars": [
+        "video_id",
+        "subtitle_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Copy",
+      "method": "POST",
+      "path": "v1/videos/:video_id/subtitles/:subtitle_id/copy",
+      "fullPath": "v1/videos/subtitles/Copy",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "subtitle_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete subtitle",
+      "method": "DELETE",
+      "path": "v1/videos/:video_id/subtitles/:subtitle_id",
+      "fullPath": "v1/videos/subtitles/Delete subtitle",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "subtitle_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get annotation",
+      "method": "GET",
+      "path": "v1/videos/:video_id/annotations/:annotation_id",
+      "fullPath": "v1/videos/annotations/Get annotation",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "annotation_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List annotations",
+      "method": "GET",
+      "path": "v1/videos/:video_id/annotations",
+      "fullPath": "v1/videos/annotations/List annotations",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Add annotation",
+      "method": "POST",
+      "path": "v1/videos/:video_id/annotations",
+      "fullPath": "v1/videos/annotations/Add annotation",
+      "queryParams": [],
+      "bodyParams": {
+        "video_id": "a8ea2af1-f322-41f7-abe3-24a3693921c9",
+        "annotation_poster_id": "2d93bc46-b12c-4eab-b584-133869816285",
+        "type": "video/text",
+        "title": "new annotation",
+        "link": "https://example.com",
+        "start_time": 0,
+        "end_time": 10000
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update annotation",
+      "method": "PUT",
+      "path": "v1/videos/:video_id/annotations/:annotation_id",
+      "fullPath": "v1/videos/annotations/Update annotation",
+      "queryParams": [],
+      "bodyParams": {
+        "video_id": "a8ea2af1-f322-41f7-abe3-24a3693921c9",
+        "annotation_poster_id": "2d93bc46-b12c-4eab-b584-133869816285",
+        "title": "new annotation",
+        "link": "https://example.com",
+        "start_time": 0,
+        "end_time": 10000
+      },
+      "pathVars": [
+        "video_id",
+        "annotation_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete annotation",
+      "method": "DELETE",
+      "path": "v1/videos/:video_id/annotations/:annotation_id",
+      "fullPath": "v1/videos/annotations/Delete annotation",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id",
+        "annotation_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Videos list",
+      "method": "GET",
+      "path": "v1/videos",
+      "fullPath": "v1/videos/Videos list",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "100",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "created_at.desc,title.asc",
+          "description": "title, description, created_at, updated_at, duration"
+        },
+        {
+          "key": "status[]",
+          "value": "",
+          "description": "pending, uploading, pre-processing, processing, aborted, done, error"
+        },
+        {
+          "key": "folder_id",
+          "value": "",
+          "description": ""
+        },
+        {
+          "key": "project_id",
+          "value": "",
+          "description": ""
+        },
+        {
+          "key": "video_ids[]",
+          "value": "",
+          "description": "List of video IDs to fetch"
+        },
+        {
+          "key": "q",
+          "value": "",
+          "description": "String for searching in title, description"
+        },
+        {
+          "key": "without_folder",
+          "value": "true",
+          "description": "Show only videos without folder"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get video",
+      "method": "GET",
+      "path": "v1/videos/:video_id",
+      "fullPath": "v1/videos/Get video",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update video",
+      "method": "PATCH",
+      "path": "v1/videos/:video_id",
+      "fullPath": "v1/videos/Update video",
+      "queryParams": [],
+      "bodyParams": {
+        "title": "New title",
+        "description": "New description",
+        "privacy_type": "custom",
+        "privacy_domains": [
+          "my_domain.io"
+        ],
+        "additional_materials_enabled": false,
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3"
+        ]
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete video",
+      "method": "DELETE",
+      "path": "v1/videos/:video_id",
+      "fullPath": "v1/videos/Delete video",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Move video to another project and folder",
+      "method": "PUT",
+      "path": "v1/videos/:video_id/move",
+      "fullPath": "v1/videos/Move video to another project and folder",
+      "queryParams": [],
+      "bodyParams": {
+        "project_id": "3kAyiWTAZQKKZxg1GfjKvS",
+        "folder_id": "2MxB8wx35jHQjhCPczBamu"
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update chapters",
+      "method": "PUT",
+      "path": "v1/videos/:video_id/chapters",
+      "fullPath": "v1/videos/Update chapters",
+      "queryParams": [],
+      "bodyParams": {
+        "items": [
+          {
+            "time": 10000,
+            "title": "Chapter at 10sec"
+          }
+        ],
+        "enabled": true
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Concat video",
+      "method": "POST",
+      "path": "v1/videos/:video_id/concat",
+      "fullPath": "v1/videos/Concat video",
+      "queryParams": [],
+      "bodyParams": {
+        "prepend": [
+          {
+            "video_id": "5b89912b-3a7f-48cb-b8df-cc20fa7e8c5d"
+          }
+        ],
+        "append": [
+          {
+            "video_id": "9460903b-b179-484c-b62e-31edcfa56069"
+          }
+        ],
+        "replace": false
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Copy video",
+      "method": "POST",
+      "path": "v1/videos/:video_id/copy",
+      "fullPath": "v1/videos/Copy video",
+      "queryParams": [],
+      "bodyParams": {
+        "parent_id": "9460903b-b179-484c-b62e-31edcfa56069"
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Cut video",
+      "method": "POST",
+      "path": "v1/videos/:video_id/cut",
+      "fullPath": "v1/videos/Cut video",
+      "queryParams": [],
+      "bodyParams": {
+        "crop": {
+          "w": 300,
+          "h": 200,
+          "x": 100,
+          "y": 80,
+          "quality": "360p"
+        },
+        "trim": [
+          {
+            "start": 6,
+            "length": 2
+          },
+          {
+            "start": 1,
+            "length": 2
+          }
+        ]
+      },
+      "pathVars": [
+        "video_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Usage",
+      "method": "GET",
+      "path": "v1/billing/usage",
+      "fullPath": "v1/billing/Usage",
+      "queryParams": [
+        {
+          "key": "from",
+          "value": "2024-01-01",
+          "description": ""
+        },
+        {
+          "key": "to",
+          "value": "2024-02-01",
+          "description": ""
+        },
+        {
+          "key": "group_by",
+          "value": "project_id",
+          "description": "Available values: project_id"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create project",
+      "method": "POST",
+      "path": "v1/projects",
+      "fullPath": "v1/projects/Create project",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Project custom",
+        "privacy_type": "custom",
+        "privacy_domains": [
+          "custom.domain.com"
+        ],
+        "player_id": "...",
+        "encrypted": false,
+        "catalog_type": "vod"
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Projects list",
+      "method": "GET",
+      "path": "v1/projects",
+      "fullPath": "v1/projects/Projects list",
+      "queryParams": [
+        {
+          "key": "catalog_type",
+          "value": "vod",
+          "description": "Default: vod. Available: live or vod"
+        },
+        {
+          "key": "per_page",
+          "value": "100",
+          "description": ""
+        },
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get project",
+      "method": "GET",
+      "path": "v1/projects/:project_id",
+      "fullPath": "v1/projects/Get project",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete project",
+      "method": "DELETE",
+      "path": "v1/projects/:project_id",
+      "fullPath": "v1/projects/Delete project",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update project",
+      "method": "PUT",
+      "path": "v1/projects/:project_id",
+      "fullPath": "v1/projects/Update project",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Project name updated",
+        "privacy_type": "anywhere",
+        "privacy_domains": [],
+        "apply_to_videos": false,
+        "player_id": "..."
+      },
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create folder",
+      "method": "POST",
+      "path": "v1/projects/:project_id/folders",
+      "fullPath": "v1/folders/Create folder",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "New folder 1",
+        "parent_id": "f1e9a79c-8765-4b0b-b228-0903e83d60be"
+      },
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Folders list",
+      "method": "GET",
+      "path": "v1/projects/:project_id/folders",
+      "fullPath": "v1/folders/Folders list",
+      "queryParams": [
+        {
+          "key": "order",
+          "value": "created_at.desc",
+          "description": "Available fields: \nname, created_at"
+        },
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "10",
+          "description": ""
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get folder",
+      "method": "GET",
+      "path": "v1/projects/:project_id/folders/:folder_id",
+      "fullPath": "v1/folders/Get folder",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id",
+        "folder_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update folder",
+      "method": "PUT",
+      "path": "v1/projects/:project_id/folders/:folder_id",
+      "fullPath": "v1/folders/Update folder",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "New folder updated"
+      },
+      "pathVars": [
+        "project_id",
+        "folder_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete folder",
+      "method": "DELETE",
+      "path": "v1/projects/:project_id/folders/:folder_id",
+      "fullPath": "v1/folders/Delete folder",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id",
+        "folder_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Overview",
+      "method": "GET",
+      "path": "v1/analytics/overview",
+      "fullPath": "v1/analytics/Overview",
+      "queryParams": [
+        {
+          "key": "from",
+          "value": "2020-08-30",
+          "description": ""
+        },
+        {
+          "key": "to",
+          "value": "2020-09-01",
+          "description": ""
+        },
+        {
+          "key": "group_time",
+          "value": "day",
+          "description": "hour, week, month, day (default)"
+        },
+        {
+          "key": "video_id",
+          "value": "",
+          "description": "not required"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Custom",
+      "method": "GET",
+      "path": "v1/analytics",
+      "fullPath": "v1/analytics/Custom",
+      "queryParams": [
+        {
+          "key": "from",
+          "value": "2020-11-01T06:00:00Z",
+          "description": "must be YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ"
+        },
+        {
+          "key": "to",
+          "value": "2020-11-01T12:00:00Z",
+          "description": "must be YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ"
+        },
+        {
+          "key": "group",
+          "value": "day",
+          "description": "hour, week, month, day"
+        },
+        {
+          "key": "group_entities",
+          "value": "video_id",
+          "description": "video_id, device, watch_time, city, country_code, folder_name, folder_id, project_name, project_id"
+        },
+        {
+          "key": "fields",
+          "value": "video_id",
+          "description": "view, seek, play, pause, replay, player_init, player_load, buffering_time, buffering_count, video_id, workspace_id, device, watch_time, city, country_code, folder_name, folder_id, project_name, project_id, unique_view, external_id"
+        },
+        {
+          "key": "order",
+          "value": "view.desc,play.desc",
+          "description": "not required"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Upload additional material",
+      "method": "POST",
+      "path": "additional-material",
+      "fullPath": "v1/additional-materials/Upload additional material",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get download link",
+      "method": "GET",
+      "path": "v1/additional-materials/:material_id/link",
+      "fullPath": "v1/additional-materials/Get download link",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "material_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update additional material",
+      "method": "PUT",
+      "path": "v1/additional-materials/:material_id",
+      "fullPath": "v1/additional-materials/Update additional material",
+      "queryParams": [],
+      "bodyParams": {
+        "title": "New title"
+      },
+      "pathVars": [
+        "material_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Reorder additional materials",
+      "method": "PATCH",
+      "path": "v1/additional-materials/reorder",
+      "fullPath": "v1/additional-materials/Reorder additional materials",
+      "queryParams": [],
+      "bodyParams": [
+        "8VYZT2rW5vbvRBcWruuNFo",
+        "b32Wjbh6a3pYNaKvfxhXFU"
+      ],
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Delete additional material",
+      "method": "DELETE",
+      "path": "v1/additional-materials/:material_id",
+      "fullPath": "v1/additional-materials/Delete additional material",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "material_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Timezones list",
+      "method": "GET",
+      "path": "v1/dictionaries/timezones",
+      "fullPath": "v1/dictionaries/Timezones list",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create token",
+      "method": "POST",
+      "path": "v1/access-tokens",
+      "fullPath": "v1/access-tokens/Create token",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "token1",
+        "scope": {
+          "api": {
+            "permissions": [
+              "read",
+              "write",
+              "delete"
+            ]
+          },
+          "upload": {
+            "permissions": []
+          }
+        }
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create upload token to specific project",
+      "method": "POST",
+      "path": "v1/access-tokens",
+      "fullPath": "v1/access-tokens/Create upload token to specific project",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "token for upload to project",
+        "scope": {
+          "upload": {
+            "entities": [
+              {
+                "id": "89567a90-0eef-4d0b-97d5-9e1f1bf08fca",
+                "permissions": [
+                  "read",
+                  "write",
+                  "delete"
+                ]
+              }
+            ],
+            "permissions": []
+          }
+        }
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Tokens list",
+      "method": "GET",
+      "path": "v1/access-tokens",
+      "fullPath": "v1/access-tokens/Tokens list",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get token",
+      "method": "GET",
+      "path": "v1/access-tokens/:token_id",
+      "fullPath": "v1/access-tokens/Get token",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "token_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete token",
+      "method": "DELETE",
+      "path": "v1/access-tokens/:token_id",
+      "fullPath": "v1/access-tokens/Delete token",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "token_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Show avatar",
+      "method": "GET",
+      "path": "v1/user/avatar/:avatar_id",
+      "fullPath": "v1/user/avatar/Show avatar",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "avatar_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Set avatar",
+      "method": "POST",
+      "path": "v1/avatar",
+      "fullPath": "v1/avatars/Set avatar",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Delete avatar",
+      "method": "DELETE",
+      "path": "v1/avatar",
+      "fullPath": "v1/avatars/Delete avatar",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Show avatar",
+      "method": "GET",
+      "path": "v1/workspace/avatar/:avatar_id",
+      "fullPath": "v1/avatars/Show avatar",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "avatar_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get players",
+      "method": "GET",
+      "path": "v1/players",
+      "fullPath": "v1/players/Get players",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get player",
+      "method": "GET",
+      "path": "v1/players/:player_id",
+      "fullPath": "v1/players/Get player",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "my player 1.1",
+        "settings": {}
+      },
+      "pathVars": [
+        "player_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create player",
+      "method": "POST",
+      "path": "v1/players",
+      "fullPath": "v1/players/Create player",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "my player 1",
+        "settings": {},
+        "ads": [
+          {
+            "url": "url",
+            "trigger": {
+              "type": "preroll/midroll/postroll",
+              "trigger_settings": {
+                "timePoints": [
+                  10
+                ],
+                "percentages": [
+                  50
+                ],
+                "interval": 30
+              }
+            },
+            "countries": {
+              "items": [
+                "ru"
+              ],
+              "type": "include/exclude"
+            }
+          }
+        ]
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update player",
+      "method": "PUT",
+      "path": "v1/players/:player_id",
+      "fullPath": "v1/players/Update player",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "my player 1.1",
+        "settings": {},
+        "ads": [
+          {
+            "url": "url",
+            "trigger": {
+              "type": "preroll/midroll/postroll",
+              "trigger_settings": {
+                "timePoints": [
+                  10
+                ],
+                "percentages": [
+                  50
+                ],
+                "interval": 30
+              }
+            },
+            "countries": {
+              "items": [
+                "ru"
+              ],
+              "type": "include/exclude"
+            }
+          }
+        ]
+      },
+      "pathVars": [
+        "player_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Set logo",
+      "method": "POST",
+      "path": "v1/players/:player_id/logo",
+      "fullPath": "v1/players/Set logo",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "player_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete logo",
+      "method": "DELETE",
+      "path": "v1/players/:player_id/logo",
+      "fullPath": "v1/players/Delete logo",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "player_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List file requests",
+      "method": "GET",
+      "path": "v1/file-requests",
+      "fullPath": "v1/file-requests/List file requests",
+      "queryParams": [
+        {
+          "key": "archived",
+          "value": "false",
+          "description": ""
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get file request",
+      "method": "GET",
+      "path": "v1/file-requests/:file_request_id",
+      "fullPath": "v1/file-requests/Get file request",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "file_request_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create file request",
+      "method": "POST",
+      "path": "v1/file-requests",
+      "fullPath": "v1/file-requests/Create file request",
+      "queryParams": [],
+      "bodyParams": {
+        "title": "Заголовок",
+        "description": "Описание",
+        "uploading_location_id": "aUXVrK41BmeNVwyxQ4at6x",
+        "expired_at": null
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update file request",
+      "method": "PUT",
+      "path": "v1/file-requests/:file_request_id",
+      "fullPath": "v1/file-requests/Update file request",
+      "queryParams": [],
+      "bodyParams": {
+        "title": "Rename request",
+        "uploading_location_id": "eR9N13hPU2vynDwJxrwoyP",
+        "expired_at": null,
+        "archived": false
+      },
+      "pathVars": [
+        "file_request_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete file request",
+      "method": "DELETE",
+      "path": "v1/file-requests/:file_request_id",
+      "fullPath": "v1/file-requests/Delete file request",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Rename request",
+        "folder_id": "eR9N13hPU2vynDwJxrwoyP",
+        "expired_at": null,
+        "archived": false
+      },
+      "pathVars": [
+        "file_request_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get auth",
+      "method": "GET",
+      "path": "v1/drm/auth/:project_id",
+      "fullPath": "v1/drm/on project/Get auth",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update auth",
+      "method": "PUT",
+      "path": "v1/drm/auth/:project_id",
+      "fullPath": "v1/drm/on project/Update auth",
+      "queryParams": [],
+      "bodyParams": {
+        "url": "https://example.io/auth/kinescope",
+        "username": "",
+        "password": "",
+        "strict": false
+      },
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete auth",
+      "method": "DELETE",
+      "path": "v1/drm/auth/:project_id",
+      "fullPath": "v1/drm/on project/Delete auth",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "project_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get auth",
+      "method": "GET",
+      "path": "v1/drm/auth",
+      "fullPath": "v1/drm/Get auth",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update auth",
+      "method": "PUT",
+      "path": "v1/drm/auth",
+      "fullPath": "v1/drm/Update auth",
+      "queryParams": [],
+      "bodyParams": {
+        "url": "https://example.io/auth/kinescope",
+        "username": "",
+        "password": "",
+        "strict": true
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Delete auth",
+      "method": "DELETE",
+      "path": "v1/drm/auth",
+      "fullPath": "v1/drm/Delete auth",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get domains",
+      "method": "GET",
+      "path": "v1/privacy-domains",
+      "fullPath": "v1/privacy-domains/Get domains",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create domain",
+      "method": "POST",
+      "path": "v1/privacy-domains",
+      "fullPath": "v1/privacy-domains/Create domain",
+      "queryParams": [],
+      "bodyParams": {
+        "domain": "test.ru"
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update domain",
+      "method": "PUT",
+      "path": "v1/privacy-domains/:domain_id",
+      "fullPath": "v1/privacy-domains/Update domain",
+      "queryParams": [],
+      "bodyParams": {
+        "domain": "test.ru",
+        "archived": true
+      },
+      "pathVars": [
+        "domain_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete domain",
+      "method": "DELETE",
+      "path": "v1/privacy-domains/:domain_id",
+      "fullPath": "v1/privacy-domains/Delete domain",
+      "queryParams": [],
+      "bodyParams": {
+        "domain": "test.ru",
+        "archived": true
+      },
+      "pathVars": [
+        "domain_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get tags",
+      "method": "GET",
+      "path": "v1/tags",
+      "fullPath": "v1/tags/Get tags",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create tag",
+      "method": "POST",
+      "path": "v1/tags",
+      "fullPath": "v1/tags/Create tag",
+      "queryParams": [],
+      "bodyParams": {
+        "tag": "tag1"
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update tag",
+      "method": "PUT",
+      "path": "v1/tags/:tag_id",
+      "fullPath": "v1/tags/Update tag",
+      "queryParams": [],
+      "bodyParams": {
+        "tag": "tag1",
+        "archived": true
+      },
+      "pathVars": [
+        "tag_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete tag",
+      "method": "DELETE",
+      "path": "v1/tags/:tag_id",
+      "fullPath": "v1/tags/Delete tag",
+      "queryParams": [],
+      "bodyParams": {
+        "domain": "test.ru",
+        "archived": true
+      },
+      "pathVars": [
+        "tag_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List medias",
+      "method": "GET",
+      "path": "v1/playlists/:playlist_id/entities",
+      "fullPath": "v1/playlists/entities/List medias",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Add medias",
+      "method": "POST",
+      "path": "v1/playlists/:playlist_id/entities",
+      "fullPath": "v1/playlists/entities/Add medias",
+      "queryParams": [],
+      "bodyParams": {
+        "entity_ids": [
+          "dbce4d0f-61d8-442e-bbd7-050e88ed6314"
+        ]
+      },
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete medias",
+      "method": "DELETE",
+      "path": "v1/playlists/:playlist_id/entities",
+      "fullPath": "v1/playlists/entities/Delete medias",
+      "queryParams": [],
+      "bodyParams": {
+        "entity_ids": [
+          "dbce4d0f-61d8-442e-bbd7-050e88ed6314"
+        ]
+      },
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Move media",
+      "method": "PUT",
+      "path": "v1/playlists/:playlist_id/entities/:media_id/move",
+      "fullPath": "v1/playlists/entities/Move media",
+      "queryParams": [],
+      "bodyParams": {
+        "position": 2
+      },
+      "pathVars": [
+        "playlist_id",
+        "media_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get playlist",
+      "method": "GET",
+      "path": "v1/playlists/:playlist_id",
+      "fullPath": "v1/playlists/Get playlist",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List playlists",
+      "method": "GET",
+      "path": "v1/playlists",
+      "fullPath": "v1/playlists/List playlists",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "100",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "name.desc",
+          "description": "title, description, created_at, updated_at"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create playlist",
+      "method": "POST",
+      "path": "v1/playlists",
+      "fullPath": "v1/playlists/Create playlist",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Playlist 1",
+        "parent_id": "10dabb39-ed6b-499f-afd0-38abec362ab4",
+        "entity_ids": [
+          "c646fb49-7a98-4aa2-bc77-995f3250c6a4"
+        ]
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update playlist",
+      "method": "PATCH",
+      "path": "v1/playlists/:playlist_id",
+      "fullPath": "v1/playlists/Update playlist",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Playlist updated",
+        "description": "Description updated",
+        "parent_id": "10dabb39-ed6b-499f-afd0-38abec362ab4",
+        "privacy_type": "anywhere",
+        "privacy_domains": [
+          "dddd.com"
+        ],
+        "settings": {
+          "sort_field": "duration",
+          "sort_order": "asc"
+        }
+      },
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete playlist",
+      "method": "DELETE",
+      "path": "v1/playlists/:playlist_id",
+      "fullPath": "v1/playlists/Delete playlist",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "playlist_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get moderators",
+      "method": "GET",
+      "path": "v1/moderators",
+      "fullPath": "v1/moderators/Get moderators",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Add moderator",
+      "method": "POST",
+      "path": "v1/moderators",
+      "fullPath": "v1/moderators/Add moderator",
+      "queryParams": [],
+      "bodyParams": {
+        "username": "user_admin",
+        "email": "adm@mail.ru",
+        "password": "password"
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get moderator",
+      "method": "GET",
+      "path": "v1/moderators/:moderator_id",
+      "fullPath": "v1/moderators/Get moderator",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "moderator_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update moderator",
+      "method": "PUT",
+      "path": "v1/moderators/:moderator_id",
+      "fullPath": "v1/moderators/Update moderator",
+      "queryParams": [],
+      "bodyParams": {
+        "username": "user_admin_2",
+        "email": "adm@mail.ru",
+        "password": "password"
+      },
+      "pathVars": [
+        "moderator_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete moderator",
+      "method": "DELETE",
+      "path": "v1/moderators/:moderator_id",
+      "fullPath": "v1/moderators/Delete moderator",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "moderator_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List webhooks",
+      "method": "GET",
+      "path": "v1/webhooks",
+      "fullPath": "v1/webhooks/List webhooks",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create webhook",
+      "method": "POST",
+      "path": "v1/webhooks",
+      "fullPath": "v1/webhooks/Create webhook",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "webhook1",
+        "endpoint": "https://example.io/kinescope/webhook",
+        "login": "",
+        "password": "",
+        "events": [
+          "media.update.status"
+        ]
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update webhook",
+      "method": "PUT",
+      "path": "v1/webhooks/:webhook_id",
+      "fullPath": "v1/webhooks/Update webhook",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "webhook1_edit2",
+        "endpoint": "https://example.io/kin/webhook",
+        "login": "123",
+        "password": "2222",
+        "events": [
+          "media.update.status"
+        ]
+      },
+      "pathVars": [
+        "webhook_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete webhook",
+      "method": "DELETE",
+      "path": "v1/webhooks/:webhook_id",
+      "fullPath": "v1/webhooks/Delete webhook",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "webhook_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create zone",
+      "method": "POST",
+      "path": "v1/cdn/zones",
+      "fullPath": "v1/cdn/Create zone",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "test3.edge.kinescope.dev",
+        "host": "test3.edge.kinescope.dev",
+        "origins": [
+          {
+            "addr": "test2.example.ru",
+            "basic_auth": {
+              "username": "user",
+              "password": "pass"
+            }
+          }
+        ],
+        "access_control": {
+          "jwt_secret": "token",
+          "secure_link": "link"
+        },
+        "settings": {
+          "ignore_query_strings": true,
+          "index_html": "index.html",
+          "block_bad_bots": false
+        }
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get zones",
+      "method": "GET",
+      "path": "v1/cdn/zones",
+      "fullPath": "v1/cdn/Get zones",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update zone",
+      "method": "PUT",
+      "path": "v1/cdn/zones/:zone_id",
+      "fullPath": "v1/cdn/Update zone",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "test3.edge.kinescope.dev",
+        "host": "test3.edge.kinescope.dev",
+        "origins": [
+          {
+            "addr": "test.example.ru",
+            "basic_auth": {
+              "username": "user111",
+              "password": "pass222"
+            }
+          }
+        ],
+        "access_control": {
+          "jwt_secret": "token",
+          "secure_link": "link"
+        },
+        "settings": {
+          "ignore_query_strings": true,
+          "index_html": "index.html",
+          "block_bad_bots": false
+        }
+      },
+      "pathVars": [
+        "zone_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete zone",
+      "method": "DELETE",
+      "path": "v1/cdn/zones/:zone_id",
+      "fullPath": "v1/cdn/Delete zone",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "zone_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List Participants",
+      "method": "GET",
+      "path": "v1/speak/rooms/:room_id/participants",
+      "fullPath": "v1/speak/rooms/participants/List Participants",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "10",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "created_at.desc,name.asc",
+          "description": "Available fields - name, role, created_at, updated_at"
+        },
+        {
+          "key": "q",
+          "value": "",
+          "description": "Search by room name"
+        },
+        {
+          "key": "role[]",
+          "value": "",
+          "description": "admin, manager"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get Participant",
+      "method": "GET",
+      "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+      "fullPath": "v1/speak/rooms/participants/Get Participant",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id",
+        "participant_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create Participant",
+      "method": "POST",
+      "path": "v1/speak/rooms/:room_id/participants",
+      "fullPath": "v1/speak/rooms/participants/Create Participant",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update Participant",
+      "method": "PATCH",
+      "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+      "fullPath": "v1/speak/rooms/participants/Update Participant",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id",
+        "participant_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete Participant",
+      "method": "DELETE",
+      "path": "v1/speak/rooms/:room_id/participants/:participant_id",
+      "fullPath": "v1/speak/rooms/participants/Delete Participant",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id",
+        "participant_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List Rooms",
+      "method": "GET",
+      "path": "v1/speak/rooms",
+      "fullPath": "v1/speak/rooms/List Rooms",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "10",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "created_at.desc,name.asc",
+          "description": "Available fields - name, code, type, status, created_at, updated_at"
+        },
+        {
+          "key": "status[]",
+          "value": "",
+          "description": "pending, scheduled, active, cancelled, finished"
+        },
+        {
+          "key": "type[]",
+          "value": "",
+          "description": "instant_meeting, permanent_meeting"
+        },
+        {
+          "key": "code[]",
+          "value": "",
+          "description": ""
+        },
+        {
+          "key": "q",
+          "value": "",
+          "description": "Search by room name"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Get Room",
+      "method": "GET",
+      "path": "v1/speak/rooms/:room_id",
+      "fullPath": "v1/speak/rooms/Get Room",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create Room",
+      "method": "POST",
+      "path": "v1/speak/rooms",
+      "fullPath": "v1/speak/rooms/Create Room",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update Room",
+      "method": "PATCH",
+      "path": "v1/speak/rooms/:room_id",
+      "fullPath": "v1/speak/rooms/Update Room",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete Room",
+      "method": "DELETE",
+      "path": "v1/speak/rooms/:room_id",
+      "fullPath": "v1/speak/rooms/Delete Room",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "room_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Upload video",
+      "method": "POST",
+      "path": "",
+      "fullPath": "v2/videos/Upload video",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Create restream",
+      "method": "POST",
+      "path": "v2/live/events/:event_id/restreams",
+      "fullPath": "v2/live/restreams/Create restream",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Restream name",
+        "url": "rtmp://rtmp.kinescope.io/live",
+        "key": "stream key",
+        "description": "Description",
+        "enabled": true
+      },
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update restream",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id/restreams/:restream_id",
+      "fullPath": "v2/live/restreams/Update restream",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "Restream name 1",
+        "url": "rtmp://rtmp.kinescope.io/live",
+        "key": "stream key",
+        "description": "Description",
+        "enabled": true
+      },
+      "pathVars": [
+        "event_id",
+        "restream_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get restream",
+      "method": "GET",
+      "path": "v2/live/events/:event_id/restreams/:restream_id",
+      "fullPath": "v2/live/restreams/Get restream",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id",
+        "restream_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List restreams",
+      "method": "GET",
+      "path": "v2/live/events/:event_id/restreams/:restream_id",
+      "fullPath": "v2/live/restreams/List restreams",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id",
+        "restream_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete restream",
+      "method": "DELETE",
+      "path": "v2/live/events/:event_id/restreams/:restream_id",
+      "fullPath": "v2/live/restreams/Delete restream",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id",
+        "restream_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Create event",
+      "method": "POST",
+      "path": "v2/live/events",
+      "fullPath": "v2/live/Create event",
+      "queryParams": [],
+      "bodyParams": {
+        "name": "New event",
+        "type": "recurring",
+        "auto_start": true,
+        "protected": false,
+        "time_shift": false,
+        "parent_id": "c73909aa-2ebf-4676-bdab-8010ab503075",
+        "reconnect_window": 600,
+        "scheduled": {
+          "time": "2022-12-19T00:05:41.634922Z"
+        },
+        "record": {
+          "parent_id": "c21d86ac-7e90-43e7-b825-cbf300951355"
+        },
+        "video": {
+          "presets": [
+            "360p",
+            "1080p"
+          ]
+        },
+        "restreams": [
+          {
+            "name": "Restream 1",
+            "url": "rtmp://rtmp.kinescope.dev/live",
+            "key": "stream key"
+          }
+        ],
+        "latency_mode": "standard",
+        "show_members": true,
+        "chat_active": false,
+        "chat_after_stream": true,
+        "chat_preview": true
+      },
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Update event",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id",
+      "fullPath": "v2/live/Update event",
+      "queryParams": [],
+      "bodyParams": {
+        "name": ""
+      },
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Get event",
+      "method": "GET",
+      "path": "v2/live/events/:event_id",
+      "fullPath": "v2/live/Get event",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "List events",
+      "method": "GET",
+      "path": "v2/live/events",
+      "fullPath": "v2/live/List events",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "1",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "100",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "created_at.desc,name.asc",
+          "description": "created_at, name"
+        },
+        {
+          "key": "folder_id",
+          "value": "9ff4d2c0-e4fd-4eaf-b95a-c60e4723497e",
+          "description": "Show only events from this folder"
+        },
+        {
+          "key": "project_id",
+          "value": "89154aca-a01f-4f04-958e-b3bbf51b4466",
+          "description": "Show only events from this project"
+        },
+        {
+          "key": "without_folder",
+          "value": "true",
+          "description": "Show only events without folder"
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Event videos",
+      "method": "GET",
+      "path": "v2/live/events/:event_id/videos",
+      "fullPath": "v2/live/Event videos",
+      "queryParams": [
+        {
+          "key": "page",
+          "value": "",
+          "description": ""
+        },
+        {
+          "key": "per_page",
+          "value": "",
+          "description": ""
+        },
+        {
+          "key": "order",
+          "value": "created_at.desc",
+          "description": ""
+        }
+      ],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Enable event",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id/enable",
+      "fullPath": "v2/live/Enable event",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Finish event",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id/complete",
+      "fullPath": "v2/live/Finish event",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Schedule new stream",
+      "method": "POST",
+      "path": "v2/live/events/:event_id/stream",
+      "fullPath": "v2/live/Schedule new stream",
+      "queryParams": [],
+      "bodyParams": {
+        "started_at": "2022-11-15T12:42:00.991558Z"
+      },
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Update schedule stream",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id/stream",
+      "fullPath": "v2/live/Update schedule stream",
+      "queryParams": [],
+      "bodyParams": {
+        "started_at": "2024-11-15T12:42:00.991558Z"
+      },
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Delete event",
+      "method": "DELETE",
+      "path": "v2/live/events/:event_id",
+      "fullPath": "v2/live/Delete event",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Move event",
+      "method": "PUT",
+      "path": "v2/live/events/:event_id/move",
+      "fullPath": "v2/live/Move event",
+      "queryParams": [],
+      "bodyParams": {
+        "parent_id": "b5bf16d0-6722-4c82-bb55-b2eac5264a50"
+      },
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Upload poster",
+      "method": "POST",
+      "path": "v2/poster",
+      "fullPath": "v2/live/Upload poster",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    },
+    {
+      "name": "Qos",
+      "method": "GET",
+      "path": "v2/live/events/:event_id/qos",
+      "fullPath": "v2/live/Qos",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Chat",
+      "method": "GET",
+      "path": "v2/live/events/:event_id/stream/:stream_id/chat(.json|.csv|.txt)",
+      "fullPath": "v2/live/Chat",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [
+        "event_id",
+        "stream_id"
+      ],
+      "description": ""
+    },
+    {
+      "name": "Upload poster",
+      "method": "POST",
+      "path": "v2/poster",
+      "fullPath": "v2/posters/Upload poster",
+      "queryParams": [],
+      "bodyParams": null,
+      "pathVars": [],
+      "description": ""
+    }
+  ]
+}

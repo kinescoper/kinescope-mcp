@@ -1,0 +1,506 @@
+[
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/posters-list.ts",
+    "toolName": "kinescope_:video_id_posters_list__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/create-poster-by-time.ts",
+    "toolName": "kinescope_:video_id_create_poster_by_time__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/get-poster.ts",
+    "toolName": "kinescope_:video_id_get_poster__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/set-active-poster.ts",
+    "toolName": "kinescope_:video_id_set_active_poster__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/delete-poster.ts",
+    "toolName": "kinescope_:video_id_delete_poster__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/list-subtitles.ts",
+    "toolName": "kinescope_:video_id_list_subtitles__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/add-subtitle-file.ts",
+    "toolName": "kinescope_:video_id_add_subtitle_file__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/reorder.ts",
+    "toolName": "kinescope_:video_id_reorder__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/get-subtitle.ts",
+    "toolName": "kinescope_:video_id_get_subtitle__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/update-subtitle-info.ts",
+    "toolName": "kinescope_:video_id_update_subtitle_info__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/copy.ts",
+    "toolName": "kinescope_:video_id_copy__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/delete-subtitle.ts",
+    "toolName": "kinescope_:video_id_delete_subtitle__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/get-annotation.ts",
+    "toolName": "kinescope_:video_id_get_annotation__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/list-annotations.ts",
+    "toolName": "kinescope_:video_id_list_annotations__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/add-annotation.ts",
+    "toolName": "kinescope_:video_id_add_annotation__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/update-annotation.ts",
+    "toolName": "kinescope_:video_id_update_annotation__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/delete-annotation.ts",
+    "toolName": "kinescope_:video_id_delete_annotation__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/get-video.ts",
+    "toolName": "kinescope_:video_id_get_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/update-video.ts",
+    "toolName": "kinescope_:video_id_update_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/delete-video.ts",
+    "toolName": "kinescope_:video_id_delete_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/move-video-to-another-project-and-folder.ts",
+    "toolName": "kinescope_:video_id_move_video_to_another_project_and_folder__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/update-chapters.ts",
+    "toolName": "kinescope_:video_id_update_chapters__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/concat-video.ts",
+    "toolName": "kinescope_:video_id_concat_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/copy-video.ts",
+    "toolName": "kinescope_:video_id_copy_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/_video_id/cut-video.ts",
+    "toolName": "kinescope_:video_id_cut_video__video_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/videos/videos-list.ts",
+    "toolName": "kinescope_videos_videos_list"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/billing/usage/usage.ts",
+    "toolName": "kinescope_usage_usage_usage"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/create-project.ts",
+    "toolName": "kinescope_projects_create_project"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/projects-list.ts",
+    "toolName": "kinescope_projects_projects_list"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/get-project.ts",
+    "toolName": "kinescope_:project_id_get_project__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/delete-project.ts",
+    "toolName": "kinescope_:project_id_delete_project__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/update-project.ts",
+    "toolName": "kinescope_:project_id_update_project__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/create-folder.ts",
+    "toolName": "kinescope_:project_id_create_folder__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/folders-list.ts",
+    "toolName": "kinescope_:project_id_folders_list__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/get-folder.ts",
+    "toolName": "kinescope_:project_id_get_folder__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/update-folder.ts",
+    "toolName": "kinescope_:project_id_update_folder__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/projects/_project_id/delete-folder.ts",
+    "toolName": "kinescope_:project_id_delete_folder__project_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/analytics/overview/overview.ts",
+    "toolName": "kinescope_overview_overview_overview"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/analytics/custom.ts",
+    "toolName": "kinescope_analytics_custom"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/additional_materials/_material_id/get-download-link.ts",
+    "toolName": "kinescope_:material_id_get_download_link__material_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/additional_materials/_material_id/update-additional-material.ts",
+    "toolName": "kinescope_:material_id_update_additional_material__material_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/additional_materials/_material_id/delete-additional-material.ts",
+    "toolName": "kinescope_:material_id_delete_additional_material__material_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/additional_materials/reorder/reorder-additional-materials.ts",
+    "toolName": "kinescope_reorder_reorder_additional_materials_reorder"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/dictionaries/timezones/timezones-list.ts",
+    "toolName": "kinescope_timezones_timezones_list_timezones"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/access_tokens/create-token.ts",
+    "toolName": "kinescope_access-tokens_create_token"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/access_tokens/create-upload-token-to-specific-project.ts",
+    "toolName": "kinescope_access-tokens_create_upload_token_to_specific_project"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/access_tokens/tokens-list.ts",
+    "toolName": "kinescope_access-tokens_tokens_list"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/access_tokens/_token_id/get-token.ts",
+    "toolName": "kinescope_:token_id_get_token__token_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/access_tokens/_token_id/delete-token.ts",
+    "toolName": "kinescope_:token_id_delete_token__token_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/user/avatar/show-avatar.ts",
+    "toolName": "kinescope_avatar_show_avatar_avatar"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/avatar/set-avatar.ts",
+    "toolName": "kinescope_avatar_set_avatar"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/avatar/delete-avatar.ts",
+    "toolName": "kinescope_avatar_delete_avatar"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/workspace/avatar/show-avatar.ts",
+    "toolName": "kinescope_avatar_show_avatar_avatar"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/get-players.ts",
+    "toolName": "kinescope_players_get_players"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/create-player.ts",
+    "toolName": "kinescope_players_create_player"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/_player_id/get-player.ts",
+    "toolName": "kinescope_:player_id_get_player__player_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/_player_id/update-player.ts",
+    "toolName": "kinescope_:player_id_update_player__player_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/_player_id/set-logo.ts",
+    "toolName": "kinescope_:player_id_set_logo__player_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/players/_player_id/delete-logo.ts",
+    "toolName": "kinescope_:player_id_delete_logo__player_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/file_requests/list-file-requests.ts",
+    "toolName": "kinescope_file-requests_list_file_requests"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/file_requests/create-file-request.ts",
+    "toolName": "kinescope_file-requests_create_file_request"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/file_requests/_file_request_id/get-file-request.ts",
+    "toolName": "kinescope_:file_request_id_get_file_request__file_request_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/file_requests/_file_request_id/update-file-request.ts",
+    "toolName": "kinescope_:file_request_id_update_file_request__file_request_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/file_requests/_file_request_id/delete-file-request.ts",
+    "toolName": "kinescope_:file_request_id_delete_file_request__file_request_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/drm/auth/get-auth.ts",
+    "toolName": "kinescope_auth_get_auth_auth"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/drm/auth/update-auth.ts",
+    "toolName": "kinescope_auth_update_auth_auth"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/drm/auth/delete-auth.ts",
+    "toolName": "kinescope_auth_delete_auth_auth"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/privacy_domains/get-domains.ts",
+    "toolName": "kinescope_privacy-domains_get_domains"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/privacy_domains/create-domain.ts",
+    "toolName": "kinescope_privacy-domains_create_domain"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/privacy_domains/_domain_id/update-domain.ts",
+    "toolName": "kinescope_:domain_id_update_domain__domain_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/privacy_domains/_domain_id/delete-domain.ts",
+    "toolName": "kinescope_:domain_id_delete_domain__domain_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/tags/get-tags.ts",
+    "toolName": "kinescope_tags_get_tags"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/tags/create-tag.ts",
+    "toolName": "kinescope_tags_create_tag"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/tags/_tag_id/update-tag.ts",
+    "toolName": "kinescope_:tag_id_update_tag__tag_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/tags/_tag_id/delete-tag.ts",
+    "toolName": "kinescope_:tag_id_delete_tag__tag_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/list-medias.ts",
+    "toolName": "kinescope_:playlist_id_list_medias__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/add-medias.ts",
+    "toolName": "kinescope_:playlist_id_add_medias__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/delete-medias.ts",
+    "toolName": "kinescope_:playlist_id_delete_medias__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/move-media.ts",
+    "toolName": "kinescope_:playlist_id_move_media__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/get-playlist.ts",
+    "toolName": "kinescope_:playlist_id_get_playlist__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/update-playlist.ts",
+    "toolName": "kinescope_:playlist_id_update_playlist__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/_playlist_id/delete-playlist.ts",
+    "toolName": "kinescope_:playlist_id_delete_playlist__playlist_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/list-playlists.ts",
+    "toolName": "kinescope_playlists_list_playlists"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/playlists/create-playlist.ts",
+    "toolName": "kinescope_playlists_create_playlist"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/moderators/get-moderators.ts",
+    "toolName": "kinescope_moderators_get_moderators"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/moderators/add-moderator.ts",
+    "toolName": "kinescope_moderators_add_moderator"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/moderators/_moderator_id/get-moderator.ts",
+    "toolName": "kinescope_:moderator_id_get_moderator__moderator_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/moderators/_moderator_id/update-moderator.ts",
+    "toolName": "kinescope_:moderator_id_update_moderator__moderator_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/moderators/_moderator_id/delete-moderator.ts",
+    "toolName": "kinescope_:moderator_id_delete_moderator__moderator_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/webhooks/list-webhooks.ts",
+    "toolName": "kinescope_webhooks_list_webhooks"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/webhooks/create-webhook.ts",
+    "toolName": "kinescope_webhooks_create_webhook"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/webhooks/_webhook_id/update-webhook.ts",
+    "toolName": "kinescope_:webhook_id_update_webhook__webhook_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/webhooks/_webhook_id/delete-webhook.ts",
+    "toolName": "kinescope_:webhook_id_delete_webhook__webhook_id"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/cdn/zones/create-zone.ts",
+    "toolName": "kinescope_zones_create_zone_zones"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/cdn/zones/get-zones.ts",
+    "toolName": "kinescope_zones_get_zones_zones"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/cdn/zones/update-zone.ts",
+    "toolName": "kinescope_zones_update_zone_zones"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/cdn/zones/delete-zone.ts",
+    "toolName": "kinescope_zones_delete_zone_zones"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/list-participants.ts",
+    "toolName": "kinescope_rooms_list_participants_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/get-participant.ts",
+    "toolName": "kinescope_rooms_get_participant_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/create-participant.ts",
+    "toolName": "kinescope_rooms_create_participant_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/update-participant.ts",
+    "toolName": "kinescope_rooms_update_participant_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/delete-participant.ts",
+    "toolName": "kinescope_rooms_delete_participant_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/list-rooms.ts",
+    "toolName": "kinescope_rooms_list_rooms_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/get-room.ts",
+    "toolName": "kinescope_rooms_get_room_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/create-room.ts",
+    "toolName": "kinescope_rooms_create_room_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/update-room.ts",
+    "toolName": "kinescope_rooms_update_room_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/speak/rooms/delete-room.ts",
+    "toolName": "kinescope_rooms_delete_room_rooms"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/create-restream.ts",
+    "toolName": "kinescope_events_create_restream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/update-restream.ts",
+    "toolName": "kinescope_events_update_restream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/get-restream.ts",
+    "toolName": "kinescope_events_get_restream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/list-restreams.ts",
+    "toolName": "kinescope_events_list_restreams_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/delete-restream.ts",
+    "toolName": "kinescope_events_delete_restream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/create-event.ts",
+    "toolName": "kinescope_events_create_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/update-event.ts",
+    "toolName": "kinescope_events_update_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/get-event.ts",
+    "toolName": "kinescope_events_get_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/list-events.ts",
+    "toolName": "kinescope_events_list_events_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/event-videos.ts",
+    "toolName": "kinescope_events_event_videos_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/enable-event.ts",
+    "toolName": "kinescope_events_enable_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/finish-event.ts",
+    "toolName": "kinescope_events_finish_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/schedule-new-stream.ts",
+    "toolName": "kinescope_events_schedule_new_stream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/update-schedule-stream.ts",
+    "toolName": "kinescope_events_update_schedule_stream_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/delete-event.ts",
+    "toolName": "kinescope_events_delete_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/move-event.ts",
+    "toolName": "kinescope_events_move_event_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/qos.ts",
+    "toolName": "kinescope_events_qos_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/live/events/chat.ts",
+    "toolName": "kinescope_events_chat_events"
+  },
+  {
+    "filePath": "/Users/insty/Coursor project/Tetris/kinescope-mcp-starter/src/tools/poster/upload-poster.ts",
+    "toolName": "kinescope_poster_upload_poster"
+  }
+]

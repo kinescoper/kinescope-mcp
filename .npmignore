@@ -1,0 +1,47 @@
+# Source files
+src/
+*.ts
+!dist/**/*.d.ts
+
+# Development files
+scripts/
+*.test.ts
+test-*.ts
+*.test.js
+test-*.js
+
+# Documentation (keep README.md)
+*.md
+!README.md
+
+# Config files
+tsconfig.json
+.gitignore
+.git/
+
+# Test results and logs
+test-*.json
+test-*.log
+*.log
+
+# Development dependencies
+node_modules/
+
+# Build artifacts (keep dist/)
+*.map
+!dist/**/*.map
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Postman collection (not needed in package)
+*.postman_collection.json
+postman-endpoints.json
+tools-structure.json
+created-tools.json
+
+# Test files
+test-*.ts
+test-*.js

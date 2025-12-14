@@ -1,0 +1,851 @@
+{
+  "summary": {
+    "total": 126,
+    "success": 36,
+    "errors": 17,
+    "skipped": 73
+  },
+  "byResource": {
+    ":token_id": {
+      "success": 0,
+      "total": 2,
+      "errors": 0,
+      "skipped": 2
+    },
+    "access-tokens": {
+      "success": 1,
+      "total": 3,
+      "errors": 2,
+      "skipped": 0
+    },
+    ":material_id": {
+      "success": 0,
+      "total": 3,
+      "errors": 0,
+      "skipped": 3
+    },
+    "reorder": {
+      "success": 0,
+      "total": 1,
+      "errors": 1,
+      "skipped": 0
+    },
+    "analytics": {
+      "success": 0,
+      "total": 1,
+      "errors": 0,
+      "skipped": 1
+    },
+    "overview": {
+      "success": 0,
+      "total": 1,
+      "errors": 0,
+      "skipped": 1
+    },
+    "avatar": {
+      "success": 0,
+      "total": 4,
+      "errors": 3,
+      "skipped": 1
+    },
+    "usage": {
+      "success": 0,
+      "total": 1,
+      "errors": 0,
+      "skipped": 1
+    },
+    "zones": {
+      "success": 1,
+      "total": 4,
+      "errors": 0,
+      "skipped": 3
+    },
+    "timezones": {
+      "success": 1,
+      "total": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    "auth": {
+      "success": 0,
+      "total": 3,
+      "errors": 1,
+      "skipped": 2
+    },
+    ":file_request_id": {
+      "success": 0,
+      "total": 3,
+      "errors": 0,
+      "skipped": 3
+    },
+    "file-requests": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    "events": {
+      "success": 5,
+      "total": 18,
+      "errors": 3,
+      "skipped": 10
+    },
+    ":moderator_id": {
+      "success": 0,
+      "total": 3,
+      "errors": 0,
+      "skipped": 3
+    },
+    "moderators": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    ":player_id": {
+      "success": 1,
+      "total": 4,
+      "errors": 1,
+      "skipped": 2
+    },
+    "players": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    ":playlist_id": {
+      "success": 3,
+      "total": 7,
+      "errors": 1,
+      "skipped": 3
+    },
+    "playlists": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    "poster": {
+      "success": 0,
+      "total": 1,
+      "errors": 0,
+      "skipped": 1
+    },
+    ":domain_id": {
+      "success": 0,
+      "total": 2,
+      "errors": 0,
+      "skipped": 2
+    },
+    "privacy-domains": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    ":project_id": {
+      "success": 4,
+      "total": 8,
+      "errors": 1,
+      "skipped": 3
+    },
+    "projects": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    "rooms": {
+      "success": 1,
+      "total": 10,
+      "errors": 0,
+      "skipped": 9
+    },
+    ":tag_id": {
+      "success": 0,
+      "total": 2,
+      "errors": 1,
+      "skipped": 1
+    },
+    "tags": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    },
+    ":video_id": {
+      "success": 10,
+      "total": 25,
+      "errors": 3,
+      "skipped": 12
+    },
+    "videos": {
+      "success": 1,
+      "total": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    ":webhook_id": {
+      "success": 0,
+      "total": 2,
+      "errors": 0,
+      "skipped": 2
+    },
+    "webhooks": {
+      "success": 1,
+      "total": 2,
+      "errors": 0,
+      "skipped": 1
+    }
+  },
+  "allResults": [
+    {
+      "name": "kinescope_:token_id_delete_token__token_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:token_id_get_token__token_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_access-tokens_create_token",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_access-tokens_create_upload_token_to_specific_project",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_access-tokens_tokens_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:material_id_delete_additional_material__material_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:material_id_get_download_link__material_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:material_id_update_additional_material__material_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_reorder_reorder_additional_materials_reorder",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":1,\"message\":\"io error\"}}"
+    },
+    {
+      "name": "kinescope_analytics_custom",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_overview_overview_overview",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_avatar_delete_avatar",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_avatar_set_avatar",
+      "status": "error",
+      "message": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:27:10.754841585Z\"}}",
+      "error": "Kinescope API Error: 500 - {\"error\":{\"code\":500500,\"path\":\"/v1/avatar\",\"message\":\"no message available\",\"timestamp\":\"2025-12-14T18:27:10.754841585Z\"}}"
+    },
+    {
+      "name": "kinescope_usage_usage_usage",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_zones_create_zone_zones",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_zones_delete_zone_zones",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_zones_get_zones_zones",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_zones_update_zone_zones",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_timezones_timezones_list_timezones",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_auth_delete_auth_auth",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_auth_get_auth_auth",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_auth_update_auth_auth",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"url\",\"reason\":\"",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"url\",\"reason\":\"required\",\"message\":\"url param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_:file_request_id_delete_file_request__file_request_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:file_request_id_get_file_request__file_request_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:file_request_id_update_file_request__file_request_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_file-requests_create_file_request",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_file-requests_list_file_requests",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_chat_events",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"stream_id\"\n    ],\n    \"message\": \"Requir",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"stream_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_events_create_event_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_create_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_delete_event_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_delete_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_enable_event_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_event_videos_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_finish_event_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_get_event_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_get_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_list_events_events",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_events_list_restreams_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_move_event_events",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"parent_id\",\"rea",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"parent_id\",\"reason\":\"required\",\"message\":\"parent_id param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_events_qos_events",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_events_schedule_new_stream_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_update_event_events",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400246,\"message\":\"it is forbidden to edit the broadcast\"}}",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400246,\"message\":\"it is forbidden to edit the broadcast\"}}"
+    },
+    {
+      "name": "kinescope_events_update_restream_events",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_events_update_schedule_stream_events",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_:moderator_id_delete_moderator__moderator_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:moderator_id_get_moderator__moderator_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:moderator_id_update_moderator__moderator_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_moderators_add_moderator",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_moderators_get_moderators",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:player_id_delete_logo__player_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:player_id_get_player__player_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:player_id_set_logo__player_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:player_id_update_player__player_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"settings\",\"reas",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"settings\",\"reason\":\"required\",\"message\":\"settings param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_players_create_player",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_players_get_players",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:playlist_id_add_medias__playlist_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:playlist_id_delete_medias__playlist_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:playlist_id_delete_playlist__playlist_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:playlist_id_get_playlist__playlist_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:playlist_id_list_medias__playlist_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:playlist_id_move_media__playlist_id",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Require",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"media_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_:playlist_id_update_playlist__playlist_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_playlists_create_playlist",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_playlists_list_playlists",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_poster_upload_poster",
+      "status": "skipped",
+      "message": "Ресурс не найден"
+    },
+    {
+      "name": "kinescope_:domain_id_delete_domain__domain_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:domain_id_update_domain__domain_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_privacy-domains_create_domain",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_privacy-domains_get_domains",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_create_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:project_id_delete_folder__project_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:project_id_delete_project__project_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:project_id_folders_list__project_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_get_folder__project_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_get_project__project_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_update_folder__project_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:project_id_update_project__project_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"privacy_type\",\"",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"privacy_type\",\"reason\":\"required\",\"message\":\"privacy_type param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_projects_create_project",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_projects_projects_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_rooms_create_participant_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_create_room_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_delete_participant_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_delete_room_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_get_participant_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_get_room_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_list_participants_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_list_rooms_rooms",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_rooms_update_participant_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_rooms_update_room_rooms",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:tag_id_delete_tag__tag_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:tag_id_update_tag__tag_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"tag\",\"reason\":\"",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"tag\",\"reason\":\"required\",\"message\":\"tag param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_tags_create_tag",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_tags_get_tags",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_avatar_show_avatar_avatar",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    },
+    {
+      "name": "kinescope_:video_id_add_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_add_subtitle_file__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_concat_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_copy__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_copy_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_create_poster_by_time__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_cut_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_delete_annotation__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_delete_poster__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_delete_subtitle__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_delete_video__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_get_annotation__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_get_poster__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_get_subtitle__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_get_video__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_list_annotations__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_list_subtitles__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_move_video_to_another_project_and_folder__video_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"project_id\",\"re",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"project_id\",\"reason\":\"required\",\"message\":\"project_id param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_:video_id_posters_list__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_reorder__video_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400102,\"message\":\"json type error\",\"detail\":\"json: cannot unmarshal object into Go value of type []uuid.UU",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400102,\"message\":\"json type error\",\"detail\":\"json: cannot unmarshal object into Go value of type []uuid.UUID\"}}"
+    },
+    {
+      "name": "kinescope_:video_id_set_active_poster__video_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:video_id_update_annotation__video_id",
+      "status": "error",
+      "message": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"video_id\",\"reas",
+      "error": "Kinescope API Error: 400 - {\"error\":{\"code\":400400,\"message\":\"request parameters didn't validate\",\"invalid_params\":[{\"index\":0,\"name\":\"video_id\",\"reason\":\"required_if\",\"message\":\"Type video\"},{\"index\":0,\"name\":\"end_time\",\"reason\":\"required\",\"message\":\"end_time param is required\"}]}}"
+    },
+    {
+      "name": "kinescope_:video_id_update_chapters__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_update_subtitle_info__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:video_id_update_video__video_id",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_videos_videos_list",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_:webhook_id_delete_webhook__webhook_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_:webhook_id_update_webhook__webhook_id",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_webhooks_create_webhook",
+      "status": "skipped",
+      "message": "Требуются данные, которых нет в аккаунте"
+    },
+    {
+      "name": "kinescope_webhooks_list_webhooks",
+      "status": "success",
+      "message": "Успешно выполнен"
+    },
+    {
+      "name": "kinescope_avatar_show_avatar_avatar",
+      "status": "error",
+      "message": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Requir",
+      "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"avatar_id\"\n    ],\n    \"message\": \"Required\"\n  }\n]"
+    }
+  ]
+}

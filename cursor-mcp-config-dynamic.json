@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "kinescope": {
+      "command": "npx",
+      "args": ["-y", "@kinescope/mcp@latest", "--client=cursor", "--include-dynamic-tools"],
+      "env": {
+        "KINESCOPE_API_KEY": "your_kinescope_api_key_here"
+      }
+    }
+  }
+}
+

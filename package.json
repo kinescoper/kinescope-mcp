@@ -1,0 +1,60 @@
+{
+  "name": "@kinescope/mcp",
+  "version": "0.1.4",
+  "description": "MCP Server for Kinescope API - Model Context Protocol server providing access to Kinescope video platform APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "kinescope-mcp": "./dist/index.js"
+  },
+  "prepublishOnly": "npm run build",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "kinescope",
+    "video",
+    "api",
+    "model-context-protocol",
+    "mcp-server",
+    "video-platform",
+    "streaming",
+    "analytics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinescope/kinescope-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "yargs": "^17.7.2",
+    "zod": "^3.25.20",
+    "zod-to-json-schema": "^3.24.5",
+    "zod-validation-error": "^3.5.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

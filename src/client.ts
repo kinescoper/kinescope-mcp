@@ -19,7 +19,11 @@ export class KinescopeClient {
   private baseURL: string;
 
   constructor(options: KinescopeClientOptions) {
-    this.apiKey = options.apiKey;
+    if (!options.apiKey || options.apiKey.trim() === '') {
+      throw new Error('Kinescope API key is required. Provide it via KINESCOPE_API_KEY environment variable or --api-key flag.');
+    }
+    
+    this.apiKey = options.apiKey.trim();
     
     // Определяем базовый URL в зависимости от версии API
     if (options.baseURL) {
@@ -34,6 +38,7 @@ export class KinescopeClient {
       baseURL: this.baseURL,
       headers: {
         'Authorization': `Bearer ${this.apiKey}`,
+        'X-API-Token': this.apiKey, // Also send as X-API-Token header (Kinescope API accepts both)
         'Content-Type': 'application/json',
       },
     });
@@ -65,8 +70,20 @@ export class KinescopeClient {
       return response.data;
     } catch (error: any) {
       if (error.response) {
+        const status = error.response.status;
+        const errorData = error.response.data;
+        
+        // Provide helpful error message for authentication issues
+        if (status === 401 || (errorData && errorData.message && errorData.message.includes('api_token'))) {
+          throw new Error(
+            `Authentication failed: API token is required. ` +
+            `Please ensure KINESCOPE_API_KEY environment variable is set correctly in your MCP configuration. ` +
+            `API Error: ${status} - ${JSON.stringify(errorData)}`
+          );
+        }
+        
         throw new Error(
-          `Kinescope API Error: ${error.response.status} - ${JSON.stringify(error.response.data)}`
+          `Kinescope API Error: ${status} - ${JSON.stringify(errorData)}`
         );
       }
       throw error;

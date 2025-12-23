@@ -1,6 +1,6 @@
 {
   "name": "@kinescope/mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MCP Server for Kinescope API - Model Context Protocol server providing access to Kinescope video platform APIs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

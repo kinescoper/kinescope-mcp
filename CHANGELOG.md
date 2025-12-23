@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.5] - 2024-12-23
+
+### Fixed
+- **Authentication fix**: Added `X-API-Token` header alongside `Authorization: Bearer` for better API compatibility
+- Fixed authentication issues with analytics endpoints that were returning "api_token is required" errors
+- Added API key validation to ensure key is present and not empty
+- Improved error messages for authentication failures with helpful guidance
+
+### Changed
+- Client now sends both `Authorization: Bearer` and `X-API-Token` headers for maximum compatibility with Kinescope API
+
 ## [0.1.4] - 2024-12-14
 
 ### Changed
